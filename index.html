@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>KingBad Stats 👑🤡</title>
 <style>
-*,:after,:before{box-sizing:border-box;margin:0;padding:0}body{font-family:Tahoma,sans-serif;background:#020617;color:#fff;padding:20px;direction:rtl;margin:0;overflow-x:hidden}.card{background:#0f172a;padding:15px;border-radius:10px;border:1px solid #1e293b;max-width:600px;margin:20px auto;box-shadow:0 4px 6px rgba(0,0,0,.3)}h1,h2,h3,h4{color:#e2e8f0;margin-top:0}h1{text-align:center;color:#fbbf24;margin-bottom:20px}input,select,button{width:100%;padding:10px;margin:8px 0;border-radius:6px;border:1px solid #334155;font-size:14px;box-sizing:border-box}input,select{background:#1e293b;color:#e2e8f0}button{background:#22c55e;color:#fff;font-weight:bold;cursor:pointer;border:none;transition:background .3s}button:hover{background:#16a34a}button.secondary{background:#3b82f6}button.secondary:hover{background:#2563eb}button.danger{background:#ef4444}button.danger:hover{background:#dc2626}button.admin{background:#8b5cf6}button.admin:hover{background:#7c3aed}.app{display:none}#loginMsg{text-align:center;margin-top:10px;color:#ef4444;font-size:14px}#individualBox,#teamBox{margin-top:15px}#individuals input,#teams input{margin:5px 0}#teams div{display:flex;gap:10px;margin:5px 0}#teams div input{flex:1}.stats-buttons{display:flex;gap:10px;margin-bottom:15px;flex-wrap:wrap}.stats-buttons button{flex:1;min-width:80px}#statsBox,#compareResult,#competitionsHistory{margin-top:15px;padding:15px;background:#1e293b;border-radius:8px;min-height:50px}.competition-item{background:#1e293b;margin:10px 0;padding:12px;border-radius:8px;border-right:4px solid #22c55e;transition:all .3s;position:relative}.competition-item:hover{background:#334155;transform:translateX(-5px)}.user-badge{display:inline-block;background:#3b82f6;color:#fff;padding:2px 10px;border-radius:12px;font-size:.85em;margin:0 5px}.time-badge{display:inline-block;background:#10b981;color:#fff;padding:2px 10px;border-radius:12px;font-size:.85em;margin:0 5px}.admin-badge{display:inline-block;background:#8b5cf6;color:#fff;padding:2px 10px;border-radius:12px;font-size:.85em;margin:0 5px}.info-text{color:#94a3b8;font-size:.9em;margin-top:5px}.current-user{position:fixed;top:20px;left:20px;background:#1e293b;padding:8px 15px;border-radius:20px;font-size:.9em;border:1px solid #334155;z-index:1000}.logout-btn{position:fixed;top:20px;right:20px;background:#ef4444;color:#fff;padding:8px 15px;border-radius:20px;border:none;cursor:pointer;font-size:.9em;z-index:1000}.logout-btn:hover{background:#dc2626}.admin-panel{position:fixed;top:60px;right:20px;background:#1e293b;padding:15px;border-radius:10px;border:2px solid #8b5cf6;z-index:1000;width:300px;display:none}.delete-btn{position:absolute;top:5px;left:5px;background:#ef4444;color:#fff;border:none;border-radius:50%;width:25px;height:25px;cursor:pointer;font-size:12px;display:none}.delete-btn:hover{background:#dc2626}.admin-visible .delete-btn{display:block}.modal{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.8);z-index:2000;align-items:center;justify-content:center}.modal-content{background:#0f172a;padding:20px;border-radius:10px;max-width:500px;width:90%;border:2px solid #8b5cf6}.modal-buttons{display:flex;gap:10px;margin-top:20px}.player-management{display:grid;grid-template-columns:1fr 1fr;gap:10px}.toggle-btns{position:fixed;top:60px;right:20px;z-index:1000;display:flex;gap:5px}.sync-status{position:fixed;bottom:20px;right:20px;background:#1e293b;padding:8px 15px;border-radius:20px;font-size:.9em;border:1px solid #334155;z-index:1000}.online{color:#22c55e}.offline{color:#ef4444}.syncing{color:#fbbf24}.saving{color:#fbbf24}.loading{color:#3b82f6}.error{color:#ef4444}.toast{position:fixed;bottom:80px;right:20px;background:#0f172a;padding:12px 20px;border-radius:8px;border-left:4px solid #22c55e;box-shadow:0 4px 12px rgba(0,0,0,.4);z-index:2000;max-width:400px;display:none}.toast.error{border-left-color:#ef4444}.toast.warning{border-left-color:#fbbf24}.toast.info{border-left-color:#3b82f6}.progress-bar{height:6px;background:#334155;border-radius:3px;overflow:hidden;margin:10px 0}.progress{height:100%;background:#22c55e;transition:width .3s}.stats-row{display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid #334155}.stats-row:last-child{border-bottom:none}.rate-badge{display:inline-block;background:#8b5cf6;color:#fff;padding:2px 8px;border-radius:10px;font-size:.8em}@media (max-width:768px){body{padding:10px}.card{max-width:100%;margin:10px 0;padding:12px}.current-user,.logout-btn,.admin-panel,.toggle-btns,.sync-status{position:static;margin:10px;display:block;width:auto}#teams div{flex-direction:column;gap:5px}.stats-buttons{flex-direction:column}.player-management{grid-template-columns:1fr}.toast{right:10px;left:10px;bottom:100px}}
+*,:after,:before{box-sizing:border-box;margin:0;padding:0}body{font-family:Tahoma,sans-serif;background:#020617;color:#fff;padding:20px;direction:rtl;margin:0;overflow-x:hidden}.card{background:#0f172a;padding:15px;border-radius:10px;border:1px solid #1e293b;max-width:600px;margin:20px auto;box-shadow:0 4px 6px rgba(0,0,0,.3)}h1,h2,h3,h4{color:#e2e8f0;margin-top:0}h1{text-align:center;color:#fbbf24;margin-bottom:20px}input,select,button{width:100%;padding:10px;margin:8px 0;border-radius:6px;border:1px solid #334155;font-size:14px;box-sizing:border-box}input,select{background:#1e293b;color:#e2e8f0}button{background:#22c55e;color:#fff;font-weight:bold;cursor:pointer;border:none;transition:background .3s}button:hover{background:#16a34a}button.secondary{background:#3b82f6}button.secondary:hover{background:#2563eb}button.danger{background:#ef4444}button.danger:hover{background:#dc2626}button.admin{background:#8b5cf6}button.admin:hover{background:#7c3aed}button.warning{background:#f59e0b}button.warning:hover{background:#d97706}.app{display:none}#loginMsg{text-align:center;margin-top:10px;color:#ef4444;font-size:14px}#individualBox,#teamBox{margin-top:15px}#individuals input,#teams input{margin:5px 0}#teams div{display:flex;gap:10px;margin:5px 0}#teams div input{flex:1}.stats-buttons{display:flex;gap:10px;margin-bottom:15px;flex-wrap:wrap}.stats-buttons button{flex:1;min-width:80px}#statsBox,#compareResult,#competitionsHistory,#strongStatsBox,#strongResultsHistory{margin-top:15px;padding:15px;background:#1e293b;border-radius:8px;min-height:50px}.competition-item{background:#1e293b;margin:10px 0;padding:12px;border-radius:8px;border-right:4px solid #22c55e;transition:all .3s;position:relative}.competition-item:hover{background:#334155;transform:translateX(-5px)}.user-badge{display:inline-block;background:#3b82f6;color:#fff;padding:2px 10px;border-radius:12px;font-size:.85em;margin:0 5px}.time-badge{display:inline-block;background:#10b981;color:#fff;padding:2px 10px;border-radius:12px;font-size:.85em;margin:0 5px}.admin-badge{display:inline-block;background:#8b5cf6;color:#fff;padding:2px 10px;border-radius:12px;font-size:.85em;margin:0 5px}.info-text{color:#94a3b8;font-size:.9em;margin-top:5px}.current-user{position:fixed;top:20px;left:20px;background:#1e293b;padding:8px 15px;border-radius:20px;font-size:.9em;border:1px solid #334155;z-index:1000}.logout-btn{position:fixed;top:20px;right:20px;background:#ef4444;color:#fff;padding:8px 15px;border-radius:20px;border:none;cursor:pointer;font-size:.9em;z-index:1000}.logout-btn:hover{background:#dc2626}.admin-panel{position:fixed;top:60px;right:20px;background:#1e293b;padding:15px;border-radius:10px;border:2px solid #8b5cf6;z-index:1000;width:300px;display:none}.delete-btn{position:absolute;top:5px;left:5px;background:#ef4444;color:#fff;border:none;border-radius:50%;width:25px;height:25px;cursor:pointer;font-size:12px;display:none}.delete-btn:hover{background:#dc2626}.admin-visible .delete-btn{display:block}.modal{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.8);z-index:2000;align-items:center;justify-content:center}.modal-content{background:#0f172a;padding:20px;border-radius:10px;max-width:500px;width:90%;border:2px solid #8b5cf6}.modal-buttons{display:flex;gap:10px;margin-top:20px}.player-management{display:grid;grid-template-columns:1fr 1fr;gap:10px}.toggle-btns{position:fixed;top:60px;right:20px;z-index:1000;display:flex;gap:5px}.sync-status{position:fixed;bottom:20px;right:20px;background:#1e293b;padding:8px 15px;border-radius:20px;font-size:.9em;border:1px solid #334155;z-index:1000}.online{color:#22c55e}.offline{color:#ef4444}.syncing{color:#fbbf24}.saving{color:#fbbf24}.loading{color:#3b82f6}.error{color:#ef4444}.toast{position:fixed;bottom:80px;right:20px;background:#0f172a;padding:12px 20px;border-radius:8px;border-left:4px solid #22c55e;box-shadow:0 4px 12px rgba(0,0,0,.4);z-index:2000;max-width:400px;display:none}.toast.error{border-left-color:#ef4444}.toast.warning{border-left-color:#fbbf24}.toast.info{border-left-color:#3b82f6}.progress-bar{height:6px;background:#334155;border-radius:3px;overflow:hidden;margin:10px 0}.progress{height:100%;background:#22c55e;transition:width .3s}.stats-row{display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid #334155}.stats-row:last-child{border-bottom:none}.rate-badge{display:inline-block;background:#8b5cf6;color:#fff;padding:2px 8px;border-radius:10px;font-size:.8em}.strong-result-item{background:linear-gradient(135deg,#1a2c4d,#0f172a);border-right:4px solid #f59e0b;border-left:4px solid #ef4444}.score-display{font-size:1.5em;font-weight:bold;text-align:center;margin:10px 0;background:#1e293b;padding:10px;border-radius:8px}.score-display .winner{color:#22c55e}.score-display .loser{color:#ef4444}.score-display .vs{color:#94a3b8;margin:0 10px}.strong-badge{background:linear-gradient(135deg,#f59e0b,#ef4444);color:#020617;font-weight:bold;padding:3px 12px;border-radius:15px;font-size:0.8em;display:inline-block;margin-left:8px}.result-inputs{display:grid;grid-template-columns:1fr auto 1fr;gap:10px;align-items:center;margin:15px 0}.result-inputs input{text-align:center}.result-inputs span{text-align:center;font-weight:bold;color:#f59e0b}.tab-buttons{display:flex;gap:5px;margin-bottom:15px}.tab-buttons button{flex:1;padding:8px;font-size:0.9em}.tab-buttons .active{background:#f59e0b;color:#020617}.player-card{background:#1e293b;border-radius:10px;padding:15px;margin:10px 0;border-left:4px solid #3b82f6}.player-actions{display:flex;gap:5px;margin-top:10px}.player-actions button{padding:5px 10px;font-size:0.8em}.stat-card{background:linear-gradient(135deg,#1e293b,#0f172a);border-radius:10px;padding:15px;margin:10px 0;border-left:4px solid #22c55e}.compare-result{background:linear-gradient(135deg,#1e293b,#0f172a);border-radius:10px;padding:20px;margin:15px 0;text-align:center;border:2px solid #3b82f6}.compare-result .winner{color:#22c55e;font-size:1.3em;font-weight:bold}.compare-result .loser{color:#ef4444;font-size:1.3em;font-weight:bold}.compare-result .draw{color:#fbbf24;font-size:1.3em;font-weight:bold}.tab-content{display:block}.tab-content[style*="display: none"]{display:none !important}@media (max-width:768px){body{padding:10px}.card{max-width:100%;margin:10px 0;padding:12px}.current-user,.logout-btn,.admin-panel,.toggle-btns,.sync-status{position:static;margin:10px;display:block;width:auto}#teams div{flex-direction:column;gap:5px}.stats-buttons{flex-direction:column}.player-management{grid-template-columns:1fr}.toast{right:10px;left:10px;bottom:100px}.result-inputs{grid-template-columns:1fr;gap:5px}.result-inputs span{order:2}.tab-buttons{flex-direction:column}}
 </style>
 </head>
 <body>
@@ -39,7 +39,7 @@
 <!-- أزرار التحكم -->
 <div class="toggle-btns">
     <button id="adminToggleBtn" class="admin" onclick="toggleAdminPanel()" style="display: none;">⚙️ أدمن</button>
-    <button id="syncBtn" class="secondary" onclick="loadCompetitions()" style="display: none;">🔄 تحديث</button>
+    <button id="syncBtn" class="secondary" onclick="loadAllData()" style="display: none;">🔄 تحديث</button>
 </div>
 
 <!-- لوحة تحكم الأدمن -->
@@ -50,6 +50,7 @@
         <button onclick="exportCSV()" class="admin">📊 تصدير Excel</button>
         <button onclick="showPlayersManagement()" class="admin">👥 إدارة اللاعبين</button>
         <button onclick="showUsersManagement()" class="admin">👤 إدارة المستخدمين</button>
+        <button onclick="showStrongResultsSection()" class="warning">💪 النتائج القوية</button>
         <button onclick="resetAllData()" class="danger">🔥 تصفير الكل</button>
         <button onclick="showSyncStats()" class="secondary">📊 إحصائيات النظام</button>
     </div>
@@ -70,7 +71,7 @@
     <button onclick="login()">دخول</button>
     <div id="loginMsg"></div>
     <div class="info-text" style="text-align: center; margin-top: 15px;">
-        KingBad Stats v3.0 👑🤡<br>
+        KingBad Stats v3.5 👑🤡<br>
         نظام إحصائيات متقدم مع تخزين سحابي بحت
     </div>
 </div>
@@ -88,91 +89,181 @@
     <!-- قائمة اللاعبين للاقتراح التلقائي -->
     <datalist id="playersDatalist"></datalist>
 
-    <!-- قسم إضافة دوري -->
-    <div class="card">
-        <h3>➕ إضافة دوري جديد</h3>
-        <div style="display: flex; gap: 10px; margin-bottom: 15px;">
-            <select id="type" onchange="switchMode()" style="flex: 1;">
-                <option value="individual">🎮 فردي</option>
-                <option value="team">👥 ثنائي</option>
-            </select>
-            <button onclick="quickAddPlayers()" class="secondary" style="width: auto;">⚡ إضافة سريعة</button>
+    <!-- أزرار التبويب -->
+    <div class="tab-buttons">
+        <button id="tabCompetitions" class="active" onclick="showTab('competitions')">🎮 الدوريات</button>
+        <button id="tabStrongResults" onclick="showTab('strongResults')">💪 النتائج القوية</button>
+        <button id="tabStats" onclick="showTab('stats')">📊 الإحصائيات</button>
+        <button id="tabCompare" onclick="showTab('compare')">🆚 المقارنة</button>
+    </div>
+
+    <!-- قسم الدوريات (التبويب الأول) -->
+    <div id="competitionsTab" class="tab-content">
+        <!-- قسم إضافة دوري -->
+        <div class="card">
+            <h3>➕ إضافة دوري جديد</h3>
+            <div style="display: flex; gap: 10px; margin-bottom: 15px;">
+                <select id="type" onchange="switchMode()" style="flex: 1;">
+                    <option value="individual">🎮 فردي</option>
+                    <option value="team">👥 ثنائي</option>
+                </select>
+                <button onclick="quickAddPlayers()" class="secondary" style="width: auto;">⚡ إضافة سريعة</button>
+            </div>
+
+            <div id="individualBox">
+                <div id="individuals"></div>
+                <button onclick="addIndividual()">➕ إضافة لاعب</button>
+            </div>
+
+            <div id="teamBox" style="display:none">
+                <div id="teams"></div>
+                <button onclick="addTeam()">➕ إضافة فريق</button>
+            </div>
+
+            <div style="margin-top: 15px; display: flex; gap: 10px;">
+                <button id="saveButton" onclick="saveCompetition()" style="flex: 3;">💾 حفظ الدوري</button>
+                <button onclick="clearForm()" class="secondary" style="flex: 1;">🗑️ مسح</button>
+            </div>
+            <div class="info-text">
+                📅 سيتم الحفظ مباشرة في السحابة
+            </div>
         </div>
 
-        <div id="individualBox">
-            <div id="individuals"></div>
-            <button onclick="addIndividual()">➕ إضافة لاعب</button>
-        </div>
-
-        <div id="teamBox" style="display:none">
-            <div id="teams"></div>
-            <button onclick="addTeam()">➕ إضافة فريق</button>
-        </div>
-
-        <div style="margin-top: 15px; display: flex; gap: 10px;">
-            <button id="saveButton" onclick="saveCompetition()" style="flex: 3;">💾 حفظ الدوري</button>
-            <button onclick="clearForm()" class="secondary" style="flex: 1;">🗑️ مسح</button>
-        </div>
-        <div class="info-text">
-            📅 سيتم الحفظ مباشرة في السحابة
+        <!-- قسم تاريخ الدوريات -->
+        <div class="card">
+            <h3>📋 تاريخ الدوريات المضافة</h3>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                <div class="info-text">آخر 15 دورية مضافة</div>
+                <button onclick="loadCompetitions()" class="secondary" style="width: auto;">🔄 تحديث</button>
+            </div>
+            <div id="competitionsHistory">
+                <p style="text-align: center; color: #94a3b8;">جارٍ تحميل الدوريات...</p>
+            </div>
         </div>
     </div>
 
-    <!-- قسم الإحصائيات -->
-    <div class="card">
-        <h3>📊 الإحصائيات</h3>
-        <div class="stats-buttons">
-            <button onclick="toggleStats('individual')">🎮 فردي</button>
-            <button onclick="toggleStats('team')">👥 ثنائي</button>
-            <button onclick="toggleStats('all')">📈 عام</button>
-            <button onclick="showMyStats()" class="secondary">👤 إحصائياتي</button>
-            <button onclick="showTopPlayers()" class="secondary">🏆 المتصدرين</button>
-            <button onclick="showHistory()" class="secondary">📜 السجل الكامل</button>
+    <!-- قسم النتائج القوية (التبويب الثاني) -->
+    <div id="strongResultsTab" class="tab-content" style="display: none;">
+        <!-- قسم إضافة نتيجة قوية -->
+        <div class="card">
+            <h3>💪 إضافة نتيجة قوية</h3>
+            
+            <div class="result-inputs">
+                <input id="strongWinner" list="playersDatalist" placeholder="👤 الفائز">
+                <span>VS</span>
+                <input id="strongLoser" list="playersDatalist" placeholder="👤 الخاسر">
+            </div>
+            
+            <div class="result-inputs">
+                <input id="strongScoreWinner" type="number" min="0" max="20" placeholder="0" value="6" style="text-align: center;">
+                <span>:</span>
+                <input id="strongScoreLoser" type="number" min="0" max="20" placeholder="0" value="1" style="text-align: center;">
+            </div>
+            
+            <select id="strongGameType" onchange="toggleStrongTeamInputs()" style="margin-bottom: 10px;">
+                <option value="1v1">🎮 1 ضد 1 (فردي)</option>
+                <option value="2v2">👥 2 ضد 2 (ثنائي)</option>
+            </select>
+            
+            <!-- حقول إضافية للثنائي -->
+            <div id="strongTeamInputs" style="display: none; margin-bottom: 15px;">
+                <div class="result-inputs">
+                    <input id="strongWinnerPartner" list="playersDatalist" placeholder="👤 شريك الفائز">
+                    <span>&</span>
+                    <input id="strongLoserPartner" list="playersDatalist" placeholder="👤 شريك الخاسر">
+                </div>
+            </div>
+            
+            <textarea id="strongNotes" placeholder="📝 ملاحظات (اختياري)" rows="2" style="margin-bottom: 15px; resize: vertical;"></textarea>
+            
+            <div style="display: flex; gap: 10px;">
+                <button onclick="saveStrongResult()" class="warning" style="flex: 3;">💪 حفظ النتيجة القوية</button>
+                <button onclick="clearStrongForm()" class="secondary" style="flex: 1;">🗑️ مسح</button>
+            </div>
         </div>
-        <div id="statsBox">
-            <p style="text-align: center; color: #94a3b8;">اختر نوع الإحصائيات لعرضها</p>
+
+        <!-- قسم إحصائيات النتائج القوية -->
+        <div class="card">
+            <h3>📊 إحصائيات النتائج القوية</h3>
+            <div class="stats-buttons">
+                <button onclick="showStrongStats('1v1')">🎮 فردي</button>
+                <button onclick="showStrongStats('2v2')">👥 ثنائي</button>
+                <button onclick="showStrongStats('all')">📈 جميع</button>
+                <button onclick="showTopStrongPlayers()" class="secondary">🏆 الأقوى</button>
+                <button onclick="showStrongHistory()" class="secondary">📜 السجل الكامل</button>
+            </div>
+            <div id="strongStatsBox">
+                <p style="text-align: center; color: #94a3b8;">اختر نوع الإحصائيات لعرضها</p>
+            </div>
+        </div>
+
+        <!-- قسم تاريخ النتائج القوية -->
+        <div class="card">
+            <h3>📋 تاريخ النتائج القوية</h3>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                <div class="info-text">آخر 10 نتائج قوية</div>
+                <button onclick="loadStrongResults()" class="secondary" style="width: auto;">🔄 تحديث</button>
+            </div>
+            <div id="strongResultsHistory">
+                <p style="text-align: center; color: #94a3b8;">جارٍ تحميل النتائج القوية...</p>
+            </div>
         </div>
     </div>
 
-    <!-- قسم مقارنة اللاعبين -->
-    <div class="card">
-        <h3>🆚 مقارنة اللاعبين</h3>
-        <div class="player-management">
-            <select id="playerA">
-                <option value="">👤 اختر اللاعب الأول</option>
-            </select>
-            <select id="playerB">
-                <option value="">👤 اختر اللاعب الثاني</option>
-            </select>
+    <!-- قسم الإحصائيات (التبويب الثالث) -->
+    <div id="statsTab" class="tab-content" style="display: none;">
+        <!-- قسم الإحصائيات العامة -->
+        <div class="card">
+            <h3>📊 إحصائيات الدوريات</h3>
+            <div class="stats-buttons">
+                <button onclick="showStats('individual')">🎮 فردي</button>
+                <button onclick="showStats('team')">👥 ثنائي</button>
+                <button onclick="showStats('all')">📈 عام</button>
+                <button onclick="showMyStats()" class="secondary">👤 إحصائياتي</button>
+                <button onclick="showTopPlayers()" class="secondary">🏆 المتصدرين</button>
+                <button onclick="showHistory()" class="secondary">📜 السجل الكامل</button>
+            </div>
+            <div id="statsBox">
+                <p style="text-align: center; color: #94a3b8;">اختر نوع الإحصائيات لعرضها</p>
+            </div>
         </div>
-        <select id="compareElement">
-            <option value="total">🎮 المشاركات</option>
-            <option value="king">👑 الكنج</option>
-            <option value="bad">🤡 البعرور</option>
-            <option value="winRate">📊 نسبة الفوز</option>
-            <option value="kingRate">👑 نسبة الكنج</option>
-            <option value="badRate">🤡 نسبة البعرور</option>
-        </select>
-        <button onclick="toggleCompare()">مقارنة</button>
-        <div id="compareResult"></div>
     </div>
 
-    <!-- قسم تاريخ الدوريات -->
-    <div class="card">
-        <h3>📋 تاريخ الدوريات المضافة</h3>
-        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-            <div class="info-text">آخر 15 دورية مضافة</div>
-            <button onclick="loadCompetitions()" class="secondary" style="width: auto;">🔄 تحديث</button>
-        </div>
-        <div id="competitionsHistory">
-            <p style="text-align: center; color: #94a3b8;">جارٍ تحميل الدوريات...</p>
+    <!-- قسم المقارنة (التبويب الرابع) -->
+    <div id="compareTab" class="tab-content" style="display: none;">
+        <!-- قسم مقارنة اللاعبين -->
+        <div class="card">
+            <h3>🆚 مقارنة اللاعبين</h3>
+            <div class="player-management">
+                <select id="playerA">
+                    <option value="">👤 اختر اللاعب الأول</option>
+                </select>
+                <select id="playerB">
+                    <option value="">👤 اختر اللاعب الثاني</option>
+                </select>
+            </div>
+            <select id="compareType" onchange="updateCompareMode()">
+                <option value="all">🎮 جميع الدوريات</option>
+                <option value="individual">🎮 فردي فقط</option>
+                <option value="team">👥 ثنائي فقط</option>
+            </select>
+            <select id="compareElement">
+                <option value="total">🎮 المشاركات</option>
+                <option value="king">👑 الكنج</option>
+                <option value="bad">🤡 البعرور</option>
+                <option value="winRate">📊 نسبة الفوز</option>
+                <option value="kingRate">👑 نسبة الكنج</option>
+                <option value="badRate">🤡 نسبة البعرور</option>
+            </select>
+            <button onclick="comparePlayers()">مقارنة</button>
+            <div id="compareResult"></div>
         </div>
     </div>
 
     <!-- تذييل الصفحة -->
     <div style="text-align: center; margin-top: 30px; color: #64748b; font-size: 0.9em;">
         <hr style="border-color: #334155; margin: 20px 0;">
-        <div>KingBad Stats v3.0 👑🤡 | تم التطوير بواسطة العبدلي</div>
+        <div>KingBad Stats v3.5 👑🤡 | تم التطوير بواسطة العبدلي</div>
         <div style="margin-top: 5px;">جميع الحقوق محفوظة © 2024 | تخزين سحابي بحت</div>
     </div>
 </div>
@@ -191,6 +282,7 @@ let USERS = [
 ];
 
 window.competitions = [];
+window.strongResults = [];
 window.allPlayers = new Set();
 window.currentUser = null;
 window.deleteMode = false;
@@ -198,6 +290,10 @@ window.pendingAction = null;
 window.isOnline = navigator.onLine;
 window.firebaseEnabled = true;
 window.isSaving = false;
+window.firebaseCollections = {
+    competitions: 'competitions',
+    strongResults: 'strongResults'
+};
 
 // ==================== دالات المساعدة ====================
 function showToast(message, type = 'info', duration = 3000) {
@@ -234,307 +330,88 @@ function updateSyncStatus(text, status) {
         statusElement.style.display = 'block';
         textElement.textContent = text;
         textElement.className = status;
-        window.isOnline = status === "online" || status === "syncing";
     }
 }
 
-// ==================== دالة الحذف من السحابة فقط ====================
-window.deleteCompetition = async function(firebaseId) {
-    if (!currentUser || currentUser.role !== "admin") {
-        showToast("❌ ليس لديك صلاحية الحذف", "error");
-        return;
-    }
-    
-    showConfirmModal("🗑️ حذف دوري", 
-        "هل أنت متأكد من حذف هذا الدوري؟ هذا الإجراء لا يمكن التراجع عنه.", 
-        async () => {
-            try {
-                if (!window.isOnline) {
-                    showToast("❌ غير متصل بالإنترنت", "error");
-                    return;
-                }
-                
-                updateSyncStatus("🗑️ جاري حذف الدوري...", "syncing");
-                
-                // حذف من السحابة مباشرة
-                const response = await fetch(
-                    `https://firestore.googleapis.com/v1/projects/winner-71276/databases/(default)/documents/competitions/${firebaseId}`,
-                    { 
-                        method: 'DELETE',
-                        signal: AbortSignal.timeout(8000)
-                    }
-                );
-                
-                if (response.ok) {
-                    // إزالة من المصفوفة المحلية
-                    window.competitions = window.competitions.filter(c => c.firebaseId !== firebaseId);
-                    
-                    // تحديث الواجهة
-                    updateAppStats();
-                    displayCompetitionsHistory();
-                    updatePlayersLists();
-                    
-                    updateSyncStatus("✅ تم الحذف بنجاح", "online");
-                    showToast("✅ تم حذف الدوري من السحابة");
-                    
-                } else {
-                    throw new Error('فشل حذف الدوري من السحابة');
-                }
-                
-            } catch (error) {
-                console.error("❌ خطأ في حذف الدوري:", error);
-                updateSyncStatus("❌ فشل الحذف", "error");
-                showToast("❌ حدث خطأ أثناء حذف الدوري", "error");
-            }
-        }
-    );
+function showConfirmModal(title, message, callback) {
+    document.getElementById('modalTitle').textContent = title;
+    document.getElementById('modalMessage').textContent = message;
+    document.getElementById('confirmModal').style.display = 'flex';
+    window.pendingAction = callback;
+}
+
+window.confirmAction = function(confirmed) {
+    document.getElementById('confirmModal').style.display = 'none';
+    if (confirmed && window.pendingAction) window.pendingAction();
+    window.pendingAction = null;
 };
 
-// ==================== دالة تفعيل وضع الحذف ====================
+// ==================== دالة تبديل التبويبات ====================
+function showTab(tabName) {
+    // إخفاء جميع التبويبات
+    document.getElementById('competitionsTab').style.display = 'none';
+    document.getElementById('strongResultsTab').style.display = 'none';
+    document.getElementById('statsTab').style.display = 'none';
+    document.getElementById('compareTab').style.display = 'none';
+    
+    // إزالة النشط من جميع الأزرار
+    document.getElementById('tabCompetitions').classList.remove('active');
+    document.getElementById('tabStrongResults').classList.remove('active');
+    document.getElementById('tabStats').classList.remove('active');
+    document.getElementById('tabCompare').classList.remove('active');
+    
+    // إظهار التبويب المطلوب
+    document.getElementById(tabName + 'Tab').style.display = 'block';
+    const tabButton = document.getElementById('tab' + tabName.charAt(0).toUpperCase() + tabName.slice(1));
+    if (tabButton) {
+        tabButton.classList.add('active');
+    }
+    
+    // تحميل البيانات إذا لزم الأمر
+    if (tabName === 'strongResults') {
+        loadStrongResults();
+    } else if (tabName === 'stats') {
+        updatePlayersLists();
+    } else if (tabName === 'compare') {
+        updatePlayersLists();
+    }
+}
+
+// ==================== إصلاح الأدمن ====================
+window.toggleAdminPanel = function() {
+    const panel = document.getElementById('adminPanel');
+    panel.style.display = panel.style.display === 'block' ? 'none' : 'block';
+};
+
 window.toggleDeleteMode = function() {
     if (!currentUser || currentUser.role !== "admin") {
         showToast("❌ ليس لديك صلاحية الوصول", "error");
         return;
     }
     
-    deleteMode = !deleteMode;
+    window.deleteMode = !window.deleteMode;
     
     // تحديث جميع عناصر الدوريات لإظهار/إخفاء أزرار الحذف
     const items = document.querySelectorAll('.competition-item');
     items.forEach(item => {
-        if (deleteMode) {
+        if (window.deleteMode) {
             item.classList.add('admin-visible');
         } else {
             item.classList.remove('admin-visible');
         }
     });
     
-    showToast(deleteMode ? "✅ تم تفعيل وضع الحذف" : "❌ تم إيقاف وضع الحذف");
+    showToast(window.deleteMode ? "✅ تم تفعيل وضع الحذف" : "❌ تم إيقاف وضع الحذف");
 };
 
-// ==================== جلب البيانات من السحابة ====================
-async function loadFromCloud() {
-    if (!window.firebaseEnabled) {
-        console.log("⚠️ السحابة معطلة");
-        return null;
-    }
-    
-    if (!window.isOnline) {
-        updateSyncStatus("🔴 غير متصل بالإنترنت", "offline");
-        showToast("⚠️ غير متصل بالإنترنت", "warning");
-        return null;
-    }
-    
-    try {
-        updateSyncStatus("🔄 جاري تحميل البيانات من السحابة...", "syncing");
-        
-        const response = await fetch(
-            "https://firestore.googleapis.com/v1/projects/winner-71276/databases/(default)/documents/competitions",
-            { 
-                headers: { 'Accept': 'application/json' },
-                signal: AbortSignal.timeout(10000)
-            }
-        );
-        
-        if (response.ok) {
-            const data = await response.json();
-            const cloudCompetitions = [];
-            
-            if (data.documents) {
-                data.documents.forEach(doc => {
-                    const fields = doc.fields;
-                    cloudCompetitions.push({
-                        firebaseId: doc.name.split('/').pop(),
-                        players: fields.players?.arrayValue?.values?.map(v => v.stringValue) || [],
-                        addedBy: fields.addedBy?.stringValue || "مجهول",
-                        addedByName: fields.addedByName?.stringValue || "مجهول",
-                        timestamp: fields.timestamp?.stringValue || new Date().toISOString(),
-                        date: fields.date?.stringValue || new Date().toLocaleDateString('ar-SA'),
-                        time: fields.time?.stringValue || new Date().toLocaleTimeString('ar-SA'),
-                        dateTime: fields.dateTime?.stringValue || new Date().toLocaleString('ar-SA')
-                    });
-                });
-            }
-            
-            // ترتيب حسب التاريخ
-            cloudCompetitions.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
-            
-            console.log(`✅ تم تحميل ${cloudCompetitions.length} دوري من السحابة`);
-            updateSyncStatus("✅ تم تحميل البيانات", "online");
-            return { competitions: cloudCompetitions };
-            
-        } else {
-            throw new Error('فشل تحميل البيانات من السحابة');
-        }
-    } catch (error) {
-        console.error("❌ فشل تحميل البيانات من السحابة:", error);
-        updateSyncStatus("🔴 فشل التحميل", "error");
-        showToast("❌ فشل تحميل البيانات من السحابة", "error");
-        return null;
-    }
+// ==================== نظام الدوريات ====================
+function switchMode() {
+    const type = document.getElementById('type').value;
+    document.getElementById('individualBox').style.display = type === "individual" ? "block" : "none";
+    document.getElementById('teamBox').style.display = type === "team" ? "block" : "none";
 }
 
-// ==================== حفظ البيانات في السحابة فقط ====================
-async function saveToCloud(competitionData) {
-    if (!window.firebaseEnabled || !window.isOnline) {
-        showToast("❌ غير متصل بالإنترنت", "error");
-        return null;
-    }
-    
-    try {
-        const firestoreData = {
-            fields: {
-                players: {
-                    arrayValue: {
-                        values: competitionData.players.map(player => ({ stringValue: player }))
-                    }
-                },
-                addedBy: { stringValue: competitionData.addedBy },
-                addedByName: { stringValue: competitionData.addedByName },
-                timestamp: { stringValue: competitionData.timestamp },
-                date: { stringValue: competitionData.date },
-                time: { stringValue: competitionData.time },
-                dateTime: { stringValue: competitionData.dateTime }
-            }
-        };
-        
-        const response = await fetch(
-            "https://firestore.googleapis.com/v1/projects/winner-71276/databases/(default)/documents/competitions",
-            {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(firestoreData),
-                signal: AbortSignal.timeout(8000)
-            }
-        );
-        
-        if (response.ok) {
-            const data = await response.json();
-            competitionData.firebaseId = data.name.split('/').pop();
-            
-            // إضافة إلى المصفوفة المحلية
-            window.competitions.unshift(competitionData);
-            
-            console.log("✅ تم حفظ الدوري في السحابة");
-            return competitionData.firebaseId;
-            
-        } else {
-            const errorData = await response.json();
-            throw new Error(errorData.error?.message || 'فشل حفظ البيانات في السحابة');
-        }
-    } catch (error) {
-        console.error("❌ فشل حفظ البيانات في السحابة:", error);
-        throw error;
-    }
-}
-
-// ==================== الدوال الرئيسية ====================
-window.login = function() {
-    const username = document.getElementById('user').value;
-    const password = document.getElementById('pass').value;
-    
-    if (!username || !password) {
-        document.getElementById('loginMsg').textContent = "⚠️ يرجى إدخال اسم المستخدم وكلمة المرور";
-        return;
-    }
-    
-    const user = USERS.find(u => u.u === username && u.p === password);
-    
-    if (user) {
-        currentUser = {
-            username: user.u,
-            name: user.n,
-            role: user.r,
-            loginTime: new Date().toLocaleString('ar-SA')
-        };
-        
-        updateUserInterface();
-        document.getElementById('loginBox').style.display = "none";
-        document.getElementById('appBox').style.display = "block";
-        loadCompetitions();
-        document.getElementById('loginMsg').textContent = "";
-        
-        // حفظ الجلسة في الذاكرة فقط (ليس محلياً)
-        window.sessionUser = currentUser;
-        
-    } else {
-        document.getElementById('loginMsg').textContent = "❌ بيانات الدخول غير صحيحة";
-    }
-};
-
-window.logout = function() {
-    showConfirmModal("🚪 تسجيل الخروج", "هل تريد تسجيل الخروج؟", () => {
-        currentUser = null;
-        deleteMode = false;
-        window.sessionUser = null;
-        document.getElementById('appBox').style.display = "none";
-        document.getElementById('loginBox').style.display = "block";
-        document.getElementById('currentUserInfo').style.display = "none";
-        document.getElementById('logoutBtn').style.display = "none";
-        document.getElementById('adminToggleBtn').style.display = "none";
-        document.getElementById('syncBtn').style.display = "none";
-        document.getElementById('adminPanel').style.display = "none";
-        document.getElementById('syncStatus').style.display = "none";
-        document.getElementById('user').value = "";
-        document.getElementById('pass').value = "";
-        showToast("✅ تم تسجيل الخروج بنجاح");
-    });
-};
-
-function updateUserInterface() {
-    if (currentUser) {
-        document.getElementById('currentUserName').textContent = currentUser.name;
-        document.getElementById('currentUserInfo').style.display = "block";
-        document.getElementById('logoutBtn').style.display = "block";
-        document.getElementById('syncBtn').style.display = "block";
-        document.getElementById('syncStatus').style.display = "block";
-        
-        if (currentUser.role === "admin") {
-            document.getElementById('currentUserRole').style.display = "inline-block";
-            document.getElementById('adminToggleBtn').style.display = "block";
-        }
-    }
-}
-
-// ==================== تحميل البيانات من السحابة ====================
-async function loadCompetitions() {
-    try {
-        updateSyncStatus("🔄 جاري تحميل البيانات...", "syncing");
-        
-        const cloudData = await loadFromCloud();
-        if (cloudData?.competitions) {
-            window.competitions = cloudData.competitions;
-            
-            updateAppStats();
-            displayCompetitionsHistory();
-            updatePlayersLists();
-            
-            showToast(`✅ تم تحميل ${window.competitions.length} دوري`);
-            
-        } else if (cloudData === null) {
-            // حالة عدم الاتصال
-            window.competitions = [];
-            updateAppStats();
-            displayCompetitionsHistory();
-            updatePlayersLists();
-            
-            document.getElementById('competitionsHistory').innerHTML = 
-                '<p style="text-align: center; color: #ef4444;">❌ غير متصل بالإنترنت</p>';
-        }
-        
-    } catch (error) {
-        console.error("خطأ في تحميل البيانات:", error);
-        window.competitions = [];
-        updateAppStats();
-        displayCompetitionsHistory();
-        updatePlayersLists();
-        updateSyncStatus("❌ خطأ في التحميل", "error");
-        showToast("❌ حدث خطأ في تحميل البيانات", "error");
-    }
-}
-
-// ==================== حفظ البيانات في السحابة فقط ====================
-window.saveCompetition = async function() {
+async function saveCompetition() {
     // منع الحفظ المزدوج
     if (window.isSaving) {
         showToast("⏳ جاري حفظ الدوري السابق، يرجى الانتظار...", "warning");
@@ -542,8 +419,9 @@ window.saveCompetition = async function() {
     }
     
     let players = [];
+    const type = document.getElementById('type').value;
     
-    if (document.getElementById('type').value === "individual") {
+    if (type === "individual") {
         document.querySelectorAll("#individuals input").forEach(i => {
             const name = i.value.trim();
             if (name) players.push(name);
@@ -578,553 +456,126 @@ window.saveCompetition = async function() {
         addedByName: currentUser.name,
         timestamp: now.toISOString(),
         date: now.toLocaleDateString('ar-SA'),
-        time: now.toLocaleTimeString('ar-SA', { hour: '2-digit', minute: '2-digit' }),
-        dateTime: now.toLocaleString('ar-SA')
+        time: now.toLocaleTimeString('ar-SA', { hour: '2-digit', minute: '2-digit' })
     };
     
-    // التحقق من التكرار (بناءً على اللاعبين والتاريخ)
-    const isDuplicate = window.competitions.some(comp => {
-        const compDate = comp.date || '';
-        const compTime = comp.time || '';
-        const currentDate = competitionData.date;
-        const currentTime = competitionData.time;
-        
-        // مقارنة اللاعبين والتاريخ والوقت
-        return JSON.stringify(comp.players) === JSON.stringify(competitionData.players) &&
-               compDate === currentDate &&
-               Math.abs(new Date(compTime) - new Date(currentTime)) < 60000; // خلال دقيقة
-    });
-    
-    if (isDuplicate) {
-        showToast("⚠️ هذا الدوري موجود بالفعل!", "warning");
-        return;
-    }
-    
     try {
-        // تفعيل قفل منع الحفظ المزدوج
         window.isSaving = true;
         updateSaveButtonState(true);
         updateSyncStatus("💾 جاري حفظ الدوري...", "syncing");
         
-        // حفظ في السحابة مباشرة
-        const firebaseId = await saveToCloud(competitionData);
+        // حفظ في السحابة
+        const firebaseId = await saveToCloud('competitions', competitionData);
         
         if (firebaseId) {
-            showToast(`✅ تم حفظ الدوري في السحابة\n👤 ${currentUser.name}`, "info", 2000);
-            clearForm();
+            competitionData.firebaseId = firebaseId;
+            window.competitions.unshift(competitionData);
             
-            // تحديث البيانات مباشرة
+            // تحديث الواجهة
             updateAppStats();
             displayCompetitionsHistory();
             updatePlayersLists();
             
-            updateSyncStatus("✅ تم الحفظ بنجاح", "online");
+            showToast(`✅ تم حفظ الدوري: ${players.join('، ')}`);
+            clearForm();
+            updateSyncStatus("✅ تم الحفظ", "online");
         }
         
     } catch (error) {
-        console.error("خطأ في حفظ الدوري:", error);
+        console.error("❌ خطأ في حفظ الدوري:", error);
         showToast("❌ حدث خطأ في حفظ الدوري: " + error.message, "error");
         updateSyncStatus("❌ فشل الحفظ", "error");
     } finally {
-        // إلغاء القفل بعد الانتهاء
         window.isSaving = false;
         updateSaveButtonState(false);
     }
-};
+}
 
-// ==================== تحديث الإحصائيات ====================
 function updateAppStats() {
+    if (!window.competitions) {
+        window.competitions = [];
+    }
+    
     document.getElementById('totalCompetitions').textContent = window.competitions.length;
     
     // حساب عدد اللاعبين الفريدين
     const uniquePlayers = new Set();
     window.competitions.forEach(c => {
-        c.players.forEach(p => {
-            if (p.includes(" & ")) {
-                p.split(" & ").forEach(pl => uniquePlayers.add(pl.trim()));
-            } else {
-                uniquePlayers.add(p.trim());
-            }
-        });
+        if (c.players && Array.isArray(c.players)) {
+            c.players.forEach(p => {
+                if (p.includes(" & ")) {
+                    p.split(" & ").forEach(pl => {
+                        const trimmed = pl.trim();
+                        if (trimmed) uniquePlayers.add(trimmed);
+                    });
+                } else {
+                    const trimmed = p.trim();
+                    if (trimmed) uniquePlayers.add(trimmed);
+                }
+            });
+        }
     });
     
     document.getElementById('totalPlayers').textContent = uniquePlayers.size;
-    window.allPlayers = uniquePlayers;
 }
 
-// ==================== دالة عرض التاريخ ====================
 function displayCompetitionsHistory() {
-    let html = '';
+    const historyElement = document.getElementById('competitionsHistory');
+    
+    if (!window.competitions || window.competitions.length === 0) {
+        historyElement.innerHTML = '<p style="text-align: center; color: #94a3b8;">لا توجد دوريات</p>';
+        return;
+    }
+    
     const recent = window.competitions.slice(0, 15);
+    let html = '';
     
-    if (recent.length === 0) {
-        html = '<p style="text-align: center; color: #94a3b8;">لا توجد دوريات</p>';
-    } else {
-        recent.forEach(c => {
-            // إضافة زر الحذف فقط لوضع الأدمن وعند تفعيل وضع الحذف
-            const deleteBtn = (currentUser?.role === "admin") ? 
-                `<button class="delete-btn" onclick="deleteCompetition('${c.firebaseId}')" title="حذف الدوري">×</button>` : '';
-            
-            html += `
-                <div class="competition-item ${(currentUser?.role === "admin" && deleteMode) ? "admin-visible" : ""}">
-                    ${deleteBtn}
-                    <div style="margin-bottom: 8px;">
-                        <strong>👥 ${c.players.join('، ')}</strong>
-                    </div>
-                    <div style="font-size: 0.9em;">
-                        <span class="user-badge">👤 ${c.addedByName}</span>
-                        <span class="time-badge">📅 ${c.date}</span>
-                        <span class="time-badge">⏰ ${c.time}</span>
-                    </div>
+    recent.forEach(c => {
+        const deleteBtn = (currentUser?.role === "admin" && window.deleteMode) ? 
+            `<button class="delete-btn" onclick="deleteCompetition('${c.firebaseId}')" title="حذف الدوري">×</button>` : '';
+        
+        const players = c.players ? c.players.join('، ') : 'لاعبون غير معروفين';
+        
+        html += `
+            <div class="competition-item ${(currentUser?.role === "admin" && window.deleteMode) ? "admin-visible" : ""}">
+                ${deleteBtn}
+                <div style="margin-bottom: 8px;">
+                    <strong>👥 ${players}</strong>
                 </div>
-            `;
-        });
-    }
+                <div style="font-size: 0.9em;">
+                    <span class="user-badge">👤 ${c.addedByName || 'مجهول'}</span>
+                    <span class="time-badge">📅 ${c.date || 'غير معروف'}</span>
+                    <span class="time-badge">⏰ ${c.time || 'غير معروف'}</span>
+                </div>
+            </div>
+        `;
+    });
     
-    document.getElementById('competitionsHistory').innerHTML = html;
+    historyElement.innerHTML = html;
 }
 
-// ==================== بقية الوظائف ====================
-window.toggleAdminPanel = function() {
-    const panel = document.getElementById('adminPanel');
-    panel.style.display = panel.style.display === 'block' ? 'none' : 'block';
-};
-
-window.exportCSV = async function() {
-    if (currentUser?.role !== "admin") return;
-    
-    try {
-        updateSyncStatus("📊 جاري تصدير البيانات...", "syncing");
-        
-        // تحديث البيانات أولاً
-        await loadCompetitions();
-        
-        let csv = "تاريخ,وقت,اللاعبون,أضيف بواسطة,معرف السحابة\n";
-        window.competitions.forEach(c => {
-            csv += `"${c.date}","${c.time}","${c.players.join(', ')}","${c.addedByName}","${c.firebaseId}"\n`;
-        });
-        
-        const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = `kingbad_data_${new Date().toISOString().split('T')[0]}.csv`;
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-        URL.revokeObjectURL(url);
-        
-        updateSyncStatus("✅ تم التصدير", "online");
-        showToast(`✅ تم تصدير ${window.competitions.length} دوري`);
-        
-    } catch (error) {
-        updateSyncStatus("❌ فشل التصدير", "error");
-        showToast("❌ فشل تصدير البيانات", "error");
-    }
-};
-
-// ==================== الإحصائيات المحسنة مع نسب الكنج والبعرور ====================
-window.buildStats = function(filter) {
-    let stats = {};
-    
-    window.competitions.forEach(c => {
-        const type = c.players.every(p => !p.includes(" & ")) ? "individual" : "team";
-        if (filter !== "all" && filter !== type) return;
-        
-        const first = c.players[0];
-        const last = c.players[c.players.length - 1];
-        
-        const firstPlayers = first.includes(" & ") ? first.split(" & ") : [first];
-        const lastPlayers = last.includes(" & ") ? last.split(" & ") : [last];
-        
-        c.players.forEach(player => {
-            const players = player.includes(" & ") ? player.split(" & ") : [player];
-            players.forEach(p => {
-                p = p.trim();
-                if (!stats[p]) stats[p] = {total:0,king:0,bad:0};
-                stats[p].total++;
-            });
-        });
-        
-        firstPlayers.forEach(p => { 
-            p = p.trim();
-            if(stats[p]) stats[p].king++; 
-        });
-        
-        lastPlayers.forEach(p => { 
-            p = p.trim();
-            if(stats[p]) stats[p].bad++; 
-        });
-    });
-    
-    // حساب النسب
-    Object.keys(stats).forEach(player => {
-        const data = stats[player];
-        data.winRate = data.total > 0 ? ((data.king / data.total) * 100).toFixed(1) : 0;
-        data.kingRate = data.total > 0 ? ((data.king / data.total) * 100).toFixed(1) : 0;
-        data.badRate = data.total > 0 ? ((data.bad / data.total) * 100).toFixed(1) : 0;
-    });
-    
-    return stats;
-};
-
-window.toggleStats = function(type) {
-    const stats = window.buildStats(type);
-    const statsBox = document.getElementById('statsBox');
-    
-    let title = type === 'individual' ? "🎮 إحصائيات فردية" : 
-                type === 'team' ? "👥 إحصائيات فرق" : "📈 الإحصائيات العامة";
-    
-    let html = `<h4>${title}</h4>`;
-    
-    if (Object.keys(stats).length === 0) {
-        html += '<p style="color: #94a3b8; text-align: center;">لا توجد بيانات</p>';
-    } else {
-        const sorted = Object.entries(stats).sort((a,b) => b[1].total - a[1].total);
-        
-        sorted.forEach(([player, data]) => {
-            html += `
-                <div class="competition-item">
-                    <div style="margin-bottom: 10px;">
-                        <strong>${player}</strong>
-                        <div style="font-size: 0.85em; color: #94a3b8; margin-top: 5px;">
-                            <span class="user-badge">🎮 ${data.total} مباراة</span>
-                        </div>
-                    </div>
-                    
-                    <div class="stats-row">
-                        <span>👑 الكنج:</span>
-                        <div>
-                            <span>${data.king}</span>
-                            <span class="rate-badge" style="margin-right: 8px;">${data.kingRate}%</span>
-                        </div>
-                    </div>
-                    
-                    <div class="stats-row">
-                        <span>🤡 البعرور:</span>
-                        <div>
-                            <span>${data.bad}</span>
-                            <span class="rate-badge" style="margin-right: 8px; background: #ef4444;">${data.badRate}%</span>
-                        </div>
-                    </div>
-                    
-                    <div class="stats-row">
-                        <span>📊 نسبة الفوز:</span>
-                        <span style="color: #22c55e; font-weight: bold;">${data.winRate}%</span>
-                    </div>
-                    
-                    <div class="progress-bar" style="margin-top: 10px;">
-                        <div class="progress" style="width: ${data.kingRate}%; background: #22c55e;"></div>
-                    </div>
-                </div>
-            `;
-        });
-    }
-    
-    statsBox.innerHTML = html;
-};
-
-window.showTopPlayers = function() {
-    const stats = window.buildStats('all');
-    const sorted = Object.entries(stats).sort((a,b) => {
-        // ترتيب حسب نسبة الفوز أولاً، ثم عدد الكنج
-        const aWinRate = parseFloat(a[1].winRate);
-        const bWinRate = parseFloat(b[1].winRate);
-        if (bWinRate !== aWinRate) return bWinRate - aWinRate;
-        return b[1].king - a[1].king;
-    }).slice(0, 10);
-    
-    let html = '<h4>🏆 أفضل 10 لاعبين (بنسبة الفوز)</h4>';
-    
-    if (sorted.length === 0) {
-        html += '<p style="color: #94a3b8; text-align: center;">لا توجد بيانات</p>';
-    } else {
-        sorted.forEach(([player, data], index) => {
-            const medal = index === 0 ? '🥇' : index === 1 ? '🥈' : index === 2 ? '🥉' : '🎖️';
-            
-            html += `
-                <div class="competition-item">
-                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-                        <div>
-                            <strong>${medal} ${player}</strong>
-                            <div style="font-size: 0.85em; color: #94a3b8; margin-top: 5px;">
-                                <span class="user-badge">🎮 ${data.total}</span>
-                            </div>
-                        </div>
-                        <div style="text-align: left; font-size: 1.2em; font-weight: bold; color: #22c55e;">
-                            ${data.winRate}%
-                        </div>
-                    </div>
-                    
-                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; text-align: center;">
-                        <div>
-                            <div style="font-size: 1em; font-weight: bold; color: #fbbf24;">${data.king}</div>
-                            <div style="font-size: 0.8em; color: #94a3b8;">👑 الكنج</div>
-                        </div>
-                        <div>
-                            <div style="font-size: 1em; font-weight: bold; color: #ef4444;">${data.bad}</div>
-                            <div style="font-size: 0.8em; color: #94a3b8;">🤡 البعرور</div>
-                        </div>
-                    </div>
-                </div>
-            `;
-        });
-    }
-    
-    document.getElementById('statsBox').innerHTML = html;
-};
-
-window.toggleCompare = function() {
-    const playerA = document.getElementById('playerA').value;
-    const playerB = document.getElementById('playerB').value;
-    const element = document.getElementById('compareElement').value;
-    
-    if (!playerA || !playerB) {
-        showToast("⚠️ يرجى اختيار لاعبين للمقارنة", "warning");
+async function deleteCompetition(firebaseId) {
+    if (!currentUser || currentUser.role !== "admin") {
+        showToast("❌ ليس لديك صلاحية الحذف", "error");
         return;
     }
     
-    if (playerA === playerB) {
-        showToast("⚠️ يرجى اختيار لاعبين مختلفين", "warning");
-        return;
-    }
-    
-    const stats = window.buildStats("all");
-    const aStats = stats[playerA] || { total: 0, king: 0, bad: 0, winRate: 0, kingRate: 0, badRate: 0 };
-    const bStats = stats[playerB] || { total: 0, king: 0, bad: 0, winRate: 0, kingRate: 0, badRate: 0 };
-    
-    let aValue, bValue, aLabel, bLabel;
-    switch(element) {
-        case 'total': 
-            aValue = aStats.total; 
-            bValue = bStats.total;
-            aLabel = '🎮 مباراة';
-            bLabel = '🎮 مباراة';
-            break;
-        case 'king': 
-            aValue = aStats.king; 
-            bValue = bStats.king;
-            aLabel = '👑 كنج';
-            bLabel = '👑 كنج';
-            break;
-        case 'bad': 
-            aValue = aStats.bad; 
-            bValue = bStats.bad;
-            aLabel = '🤡 بعرور';
-            bLabel = '🤡 بعرور';
-            break;
-        case 'winRate': 
-            aValue = parseFloat(aStats.winRate); 
-            bValue = parseFloat(bStats.winRate);
-            aLabel = '📊 %';
-            bLabel = '📊 %';
-            break;
-        case 'kingRate': 
-            aValue = parseFloat(aStats.kingRate); 
-            bValue = parseFloat(bStats.kingRate);
-            aLabel = '👑 %';
-            bLabel = '👑 %';
-            break;
-        case 'badRate': 
-            aValue = parseFloat(aStats.badRate); 
-            bValue = parseFloat(bStats.badRate);
-            aLabel = '🤡 %';
-            bLabel = '🤡 %';
-            break;
-    }
-    
-    let winner = "";
-    if (aValue > bValue) {
-        const diff = (aValue - bValue).toFixed(1);
-        winner = `${playerA} يتفوق بـ ${diff}${element.includes('Rate') ? '%' : ''}`;
-    } else if (bValue > aValue) {
-        const diff = (bValue - aValue).toFixed(1);
-        winner = `${playerB} يتفوق بـ ${diff}${element.includes('Rate') ? '%' : ''}`;
-    } else {
-        winner = "تعادل تام";
-    }
-    
-    const compareResult = document.getElementById('compareResult');
-    compareResult.innerHTML = `
-        <div style="text-align: center;">
-            <h4>🆚 مقارنة ${element.includes('Rate') ? 'النسب' : ''}</h4>
-            <div style="display: flex; justify-content: space-around; margin: 20px 0;">
-                <div style="text-align: center;">
-                    <div style="font-size: 2em; font-weight: bold; color: #22c55e;">${aValue}${element.includes('Rate') ? '%' : ''}</div>
-                    <div style="font-size: 1.1em;">${playerA}</div>
-                    <div style="font-size: 0.85em; color: #94a3b8; margin-top: 5px;">
-                        ${aLabel}
-                    </div>
-                </div>
-                <div style="align-self: center; font-size: 1.5em;">VS</div>
-                <div style="text-align: center;">
-                    <div style="font-size: 2em; font-weight: bold; color: #3b82f6;">${bValue}${element.includes('Rate') ? '%' : ''}</div>
-                    <div style="font-size: 1.1em;">${playerB}</div>
-                    <div style="font-size: 0.85em; color: #94a3b8; margin-top: 5px;">
-                        ${bLabel}
-                    </div>
-                </div>
-            </div>
-            
-            <div style="background: #1e293b; padding: 15px; border-radius: 8px; margin-top: 15px;">
-                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 10px;">
-                    <div style="text-align: center;">
-                        <div style="color: #fbbf24;">👑 ${aStats.king} (${aStats.kingRate}%)</div>
-                        <div style="font-size: 0.8em; color: #94a3b8;">${playerA}</div>
-                    </div>
-                    <div style="text-align: center;">
-                        <div style="color: #fbbf24;">👑 ${bStats.king} (${bStats.kingRate}%)</div>
-                        <div style="font-size: 0.8em; color: #94a3b8;">${playerB}</div>
-                    </div>
-                </div>
-                
-                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
-                    <div style="text-align: center;">
-                        <div style="color: #ef4444;">🤡 ${aStats.bad} (${aStats.badRate}%)</div>
-                        <div style="font-size: 0.8em; color: #94a3b8;">${playerA}</div>
-                    </div>
-                    <div style="text-align: center;">
-                        <div style="color: #ef4444;">🤡 ${bStats.bad} (${bStats.badRate}%)</div>
-                        <div style="font-size: 0.8em; color: #94a3b8;">${playerB}</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div style="background: #1e293b; padding: 10px; border-radius: 8px; margin-top: 15px;">
-                <strong style="color: #fbbf24;">🏆 النتيجة:</strong> ${winner}
-            </div>
-        </div>
-    `;
-};
-
-window.showMyStats = function() {
-    const myCompetitions = window.competitions.filter(c => c.addedBy === currentUser.username);
-    const myStats = window.buildStats('all');
-    const myPlayerStats = myStats[currentUser.name] || { total: 0, king: 0, bad: 0, winRate: 0, kingRate: 0, badRate: 0 };
-    
-    let html = `<h4>👤 إحصائيات ${currentUser.name}</h4>`;
-    
-    html += `
-        <div class="competition-item">
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; text-align: center;">
-                <div>
-                    <div style="font-size: 1.5em; font-weight: bold; color: #22c55e;">${myCompetitions.length}</div>
-                    <div style="font-size: 0.9em; color: #94a3b8;">الدوريات المضافة</div>
-                </div>
-                <div>
-                    <div style="font-size: 1.5em; font-weight: bold; color: #3b82f6;">${myPlayerStats.total}</div>
-                    <div style="font-size: 0.9em; color: #94a3b8;">مشاركات</div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="competition-item">
-            <div class="stats-row">
-                <span>👑 الكنج:</span>
-                <div>
-                    <span>${myPlayerStats.king}</span>
-                    <span class="rate-badge" style="margin-right: 8px;">${myPlayerStats.kingRate}%</span>
-                </div>
-            </div>
-            
-            <div class="stats-row">
-                <span>🤡 البعرور:</span>
-                <div>
-                    <span>${myPlayerStats.bad}</span>
-                    <span class="rate-badge" style="margin-right: 8px; background: #ef4444;">${myPlayerStats.badRate}%</span>
-                </div>
-            </div>
-            
-            <div class="stats-row">
-                <span>📊 نسبة الفوز:</span>
-                <span style="color: #22c55e; font-weight: bold;">${myPlayerStats.winRate}%</span>
-            </div>
-        </div>
-    `;
-    
-    if (myCompetitions.length > 0) {
-        html += '<h5 style="margin-top: 20px;">📝 آخر دورياتي:</h5>';
-        myCompetitions.slice(0, 5).forEach(comp => {
-            html += `
-                <div class="competition-item">
-                    <div style="margin-bottom: 8px;">
-                        <strong>👥 ${comp.players.join('، ')}</strong>
-                    </div>
-                    <div style="font-size: 0.85em; color: #94a3b8;">
-                        <span class="time-badge">📅 ${comp.date}</span>
-                        <span class="time-badge">⏰ ${comp.time}</span>
-                    </div>
-                </div>
-            `;
-        });
-    }
-    
-    document.getElementById('statsBox').innerHTML = html;
-};
-
-window.showHistory = function() {
-    let html = '<h4>📜 جميع الدوريات</h4>';
-    
-    if (window.competitions.length === 0) {
-        html += '<p style="color: #94a3b8; text-align: center;">لا توجد دوريات</p>';
-    } else {
-        window.competitions.forEach(comp => {
-            const deleteBtn = (currentUser?.role === "admin") ? 
-                `<button class="delete-btn" onclick="deleteCompetition('${comp.firebaseId}')" title="حذف الدوري">×</button>` : '';
-            
-            html += `
-                <div class="competition-item ${(currentUser?.role === "admin" && deleteMode) ? "admin-visible" : ""}">
-                    ${deleteBtn}
-                    <div style="margin-bottom: 8px;">
-                        <strong>👥 ${comp.players.join('، ')}</strong>
-                    </div>
-                    <div style="font-size: 0.85em;">
-                        <span class="user-badge">👤 ${comp.addedByName}</span>
-                        <span class="time-badge">📅 ${comp.date}</span>
-                        <span class="time-badge">⏰ ${comp.time}</span>
-                    </div>
-                </div>
-            `;
-        });
-    }
-    
-    document.getElementById('statsBox').innerHTML = html;
-};
-
-// ==================== وظائف مساعدة ====================
-function updatePlayersLists() {
-    const datalist = document.getElementById('playersDatalist');
-    const playerA = document.getElementById('playerA');
-    const playerB = document.getElementById('playerB');
-    
-    window.allPlayers.clear();
-    window.competitions.forEach(c => {
-        c.players.forEach(p => {
-            if (p.includes(" & ")) {
-                p.split(" & ").forEach(pl => window.allPlayers.add(pl.trim()));
-            } else {
-                window.allPlayers.add(p.trim());
-            }
-        });
-    });
-    
-    datalist.innerHTML = '';
-    playerA.innerHTML = '<option value="">👤 اختر اللاعب الأول</option>';
-    playerB.innerHTML = '<option value="">👤 اختر اللاعب الثاني</option>';
-    
-    [...window.allPlayers].forEach(player => {
-        datalist.innerHTML += `<option value="${player}">`;
-        playerA.innerHTML += `<option value="${player}">${player}</option>`;
-        playerB.innerHTML += `<option value="${player}">${player}</option>`;
+    showConfirmModal("حذف دوري", "هل تريد حذف هذا الدوري؟", async () => {
+        try {
+            await deleteFromCloud('competitions', firebaseId);
+            window.competitions = window.competitions.filter(c => c.firebaseId !== firebaseId);
+            updateAppStats();
+            displayCompetitionsHistory();
+            updatePlayersLists();
+            showToast("✅ تم حذف الدوري");
+        } catch (error) {
+            console.error("❌ خطأ في حذف الدوري:", error);
+            showToast("❌ حدث خطأ في حذف الدوري", "error");
+        }
     });
 }
 
-function switchMode() {
-    const type = document.getElementById('type').value;
-    document.getElementById('individualBox').style.display = type === "individual" ? "block" : "none";
-    document.getElementById('teamBox').style.display = type === "team" ? "block" : "none";
-}
-
+// ==================== دوال المساعدة للدوريات ====================
 function addIndividual() {
     const div = document.createElement('div');
     div.innerHTML = `<input list="playersDatalist" placeholder="اسم اللاعب">`;
@@ -1161,132 +612,217 @@ function quickAddPlayers() {
     });
 }
 
-function showConfirmModal(title, message, callback) {
-    document.getElementById('modalTitle').textContent = title;
-    document.getElementById('modalMessage').textContent = message;
-    document.getElementById('confirmModal').style.display = 'flex';
-    window.pendingAction = callback;
-}
-
-window.confirmAction = function(confirmed) {
-    document.getElementById('confirmModal').style.display = 'none';
-    if (confirmed && window.pendingAction) window.pendingAction();
-    window.pendingAction = null;
-};
-
-// ==================== وظائف الأدمن ====================
-window.showUsersManagement = function() {
-    if (currentUser?.role !== "admin") return;
+function updatePlayersLists() {
+    const datalist = document.getElementById('playersDatalist');
+    const playerA = document.getElementById('playerA');
+    const playerB = document.getElementById('playerB');
     
-    let html = '<h4>👤 إدارة المستخدمين</h4>';
+    const allPlayers = getAllPlayers();
     
-    USERS.forEach(user => {
-        const userCompetitions = window.competitions.filter(c => c.addedBy === user.u).length;
-        html += `
-            <div class="competition-item">
-                <div style="display: flex; justify-content: space-between; align-items: center;">
-                    <div>
-                        <strong>${user.n}</strong>
-                        <div style="font-size: 0.85em; color: #94a3b8;">
-                            ${user.u} | ${user.r === 'admin' ? 'أدمن' : 'مستخدم'} | دوريات: ${userCompetitions}
-                        </div>
-                    </div>
-                    ${user.u !== currentUser.username ? 
-                        `<button onclick="deleteUser('${user.u}')" class="danger" style="padding: 5px 10px; font-size: 0.8em;">حذف</button>` : 
-                        `<span style="color: #94a3b8; font-size: 0.8em;">(أنت)</span>`
-                    }
-                </div>
-            </div>
-        `;
-    });
+    datalist.innerHTML = '';
+    playerA.innerHTML = '<option value="">👤 اختر اللاعب الأول</option>';
+    playerB.innerHTML = '<option value="">👤 اختر اللاعب الثاني</option>';
     
-    html += `
-        <div style="margin-top: 20px;">
-            <input type="text" id="newUserUsername" placeholder="اسم المستخدم الجديد" style="margin-bottom: 10px;">
-            <input type="password" id="newUserPassword" placeholder="كلمة المرور" style="margin-bottom: 10px;">
-            <input type="text" id="newUserName" placeholder="الاسم المعروض" style="margin-bottom: 10px;">
-            <select id="newUserRole" style="margin-bottom: 10px;">
-                <option value="user">مستخدم</option>
-                <option value="admin">أدمن</option>
-            </select>
-            <button onclick="addNewUser()" class="secondary">➕ إضافة مستخدم</button>
-        </div>
-    `;
-    
-    document.getElementById('statsBox').innerHTML = html;
-};
-
-function deleteUser(username) {
-    if (username === currentUser.username) {
-        showToast("❌ لا يمكن حذف حسابك الخاص", "error");
-        return;
-    }
-    
-    showConfirmModal("حذف مستخدم", `هل أنت متأكد من حذف المستخدم "${username}"؟`, () => {
-        USERS = USERS.filter(u => u.u !== username);
-        showToast("✅ تم حذف المستخدم");
-        showUsersManagement();
+    allPlayers.forEach(player => {
+        datalist.innerHTML += `<option value="${player}">`;
+        playerA.innerHTML += `<option value="${player}">${player}</option>`;
+        playerB.innerHTML += `<option value="${player}">${player}</option>`;
     });
 }
 
-function addNewUser() {
-    const username = document.getElementById('newUserUsername').value.trim();
-    const password = document.getElementById('newUserPassword').value;
-    const name = document.getElementById('newUserName').value.trim();
-    const role = document.getElementById('newUserRole').value;
+// ==================== إحصائيات كاملة ====================
+function showStats(type) {
+    const stats = calculateStats(type);
+    const statsBox = document.getElementById('statsBox');
     
-    if (!username || !password || !name) {
-        showToast("⚠️ يرجى ملء جميع الحقول", "warning");
-        return;
-    }
+    let title = type === 'individual' ? "🎮 إحصائيات فردية" : 
+                type === 'team' ? "👥 إحصائيات فرق" : "📈 الإحصائيات العامة";
     
-    if (USERS.find(u => u.u === username)) {
-        showToast("❌ اسم المستخدم موجود بالفعل", "error");
-        return;
-    }
+    let html = `<h4>${title}</h4>`;
     
-    USERS.push({ u: username, p: password, n: name, r: role });
-    
-    document.getElementById('newUserUsername').value = '';
-    document.getElementById('newUserPassword').value = '';
-    document.getElementById('newUserName').value = '';
-    
-    showToast(`✅ تم إضافة المستخدم "${name}"`);
-    showUsersManagement();
-}
-
-window.showPlayersManagement = function() {
-    let html = '<h4>👥 إدارة اللاعبين</h4>';
-    
-    const playerStats = window.buildStats('all');
-    const sortedPlayers = Object.entries(playerStats).sort((a, b) => b[1].total - a[1].total);
-    
-    if (sortedPlayers.length === 0) {
-        html += '<p style="color: #94a3b8; text-align: center;">لا يوجد لاعبين</p>';
+    if (Object.keys(stats).length === 0) {
+        html += '<p style="color: #94a3b8; text-align: center;">لا توجد بيانات</p>';
     } else {
-        sortedPlayers.forEach(([player, data]) => {
+        const sorted = Object.entries(stats).sort((a,b) => b[1].total - a[1].total);
+        
+        sorted.forEach(([player, data]) => {
+            const winRate = data.total > 0 ? ((data.king / data.total) * 100).toFixed(1) : 0;
+            const lossRate = data.total > 0 ? ((data.bad / data.total) * 100).toFixed(1) : 0;
+            
             html += `
-                <div class="competition-item">
-                    <div style="margin-bottom: 10px;">
-                        <strong>${player}</strong>
+                <div class="stat-card">
+                    <div style="margin-bottom: 15px;">
+                        <strong style="font-size: 1.1em;">${player}</strong>
                         <div style="font-size: 0.85em; color: #94a3b8; margin-top: 5px;">
                             <span class="user-badge">🎮 ${data.total} مباراة</span>
                         </div>
                     </div>
                     
-                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px;">
+                    <div class="stats-row">
                         <span>👑 الكنج:</span>
-                        <span>${data.king} (${data.kingRate}%)</span>
+                        <div>
+                            <span style="color: #fbbf24; font-weight: bold;">${data.king}</span>
+                            <span class="rate-badge" style="margin-right: 8px;">${((data.king / data.total) * 100).toFixed(1)}%</span>
+                        </div>
                     </div>
                     
-                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px;">
+                    <div class="stats-row">
                         <span>🤡 البعرور:</span>
-                        <span>${data.bad} (${data.badRate}%)</span>
+                        <div>
+                            <span style="color: #ef4444; font-weight: bold;">${data.bad}</span>
+                            <span class="rate-badge" style="margin-right: 8px; background: #ef4444;">${((data.bad / data.total) * 100).toFixed(1)}%</span>
+                        </div>
                     </div>
                     
-                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div class="stats-row">
                         <span>📊 نسبة الفوز:</span>
-                        <span style="color: #22c55e; font-weight: bold;">${data.winRate}%</span>
+                        <span style="color: #22c55e; font-weight: bold;">${winRate}%</span>
+                    </div>
+                    
+                    <div class="progress-bar" style="margin-top: 15px;">
+                        <div class="progress" style="width: ${winRate}%;"></div>
+                    </div>
+                </div>
+            `;
+        });
+    }
+    
+    statsBox.innerHTML = html;
+}
+
+function calculateStats(filterType) {
+    let stats = {};
+    
+    if (!window.competitions || !Array.isArray(window.competitions)) {
+        return stats;
+    }
+    
+    window.competitions.forEach(c => {
+        // تحديد نوع الدوري
+        let isTeam = false;
+        if (c.players && Array.isArray(c.players) && c.players.length > 0) {
+            isTeam = c.players[0].includes(" & ");
+        }
+        
+        const type = isTeam ? "team" : "individual";
+        
+        // تطبيق الفلتر
+        if (filterType !== "all" && filterType !== type) return;
+        
+        const first = c.players[0];
+        const last = c.players[c.players.length - 1];
+        
+        // تجميع اللاعبين
+        c.players.forEach(player => {
+            let playersList = [];
+            if (player.includes(" & ")) {
+                playersList = player.split(" & ").map(p => p.trim());
+            } else {
+                playersList = [player.trim()];
+            }
+            
+            playersList.forEach(p => {
+                if (!p) return;
+                if (!stats[p]) stats[p] = {total:0, king:0, bad:0};
+                stats[p].total++;
+            });
+        });
+        
+        // إضافة الكنج
+        let firstPlayers = [];
+        if (first.includes(" & ")) {
+            firstPlayers = first.split(" & ").map(p => p.trim());
+        } else {
+            firstPlayers = [first.trim()];
+        }
+        
+        firstPlayers.forEach(p => { 
+            if (p && stats[p]) stats[p].king++; 
+        });
+        
+        // إضافة البعرور
+        let lastPlayers = [];
+        if (last.includes(" & ")) {
+            lastPlayers = last.split(" & ").map(p => p.trim());
+        } else {
+            lastPlayers = [last.trim()];
+        }
+        
+        lastPlayers.forEach(p => { 
+            if (p && stats[p]) stats[p].bad++; 
+        });
+    });
+    
+    return stats;
+}
+
+window.showMyStats = function() {
+    if (!currentUser) {
+        showToast("❌ يجب تسجيل الدخول أولاً", "error");
+        return;
+    }
+    
+    const stats = calculateStats('all');
+    const myStats = stats[currentUser.name] || { total: 0, king: 0, bad: 0 };
+    const myCompetitions = window.competitions.filter(c => c.addedBy === currentUser.username);
+    
+    let html = `<h4>👤 إحصائيات ${currentUser.name}</h4>`;
+    
+    const winRate = myStats.total > 0 ? ((myStats.king / myStats.total) * 100).toFixed(1) : 0;
+    const lossRate = myStats.total > 0 ? ((myStats.bad / myStats.total) * 100).toFixed(1) : 0;
+    
+    html += `
+        <div class="stat-card">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; text-align: center; margin-bottom: 20px;">
+                <div>
+                    <div style="font-size: 1.5em; font-weight: bold; color: #22c55e;">${myStats.total}</div>
+                    <div style="font-size: 0.9em; color: #94a3b8;">المشاركات</div>
+                </div>
+                <div>
+                    <div style="font-size: 1.5em; font-weight: bold; color: #3b82f6;">${myCompetitions.length}</div>
+                    <div style="font-size: 0.9em; color: #94a3b8;">الدوريات المضافة</div>
+                </div>
+            </div>
+            
+            <div class="stats-row">
+                <span>👑 الكنج:</span>
+                <div>
+                    <span style="color: #fbbf24; font-weight: bold;">${myStats.king}</span>
+                    <span class="rate-badge">${myStats.total > 0 ? ((myStats.king / myStats.total) * 100).toFixed(1) : 0}%</span>
+                </div>
+            </div>
+            
+            <div class="stats-row">
+                <span>🤡 البعرور:</span>
+                <div>
+                    <span style="color: #ef4444; font-weight: bold;">${myStats.bad}</span>
+                    <span class="rate-badge" style="background: #ef4444;">${myStats.total > 0 ? ((myStats.bad / myStats.total) * 100).toFixed(1) : 0}%</span>
+                </div>
+            </div>
+            
+            <div class="stats-row">
+                <span>📊 نسبة الفوز:</span>
+                <span style="color: #22c55e; font-weight: bold;">${winRate}%</span>
+            </div>
+            
+            <div class="progress-bar" style="margin-top: 15px;">
+                <div class="progress" style="width: ${winRate}%;"></div>
+            </div>
+        </div>
+    `;
+    
+    if (myCompetitions.length > 0) {
+        html += '<h5 style="margin-top: 20px;">📝 آخر دورياتي:</h5>';
+        myCompetitions.slice(0, 5).forEach(comp => {
+            const players = comp.players ? comp.players.join('، ') : 'لاعبون غير معروفين';
+            html += `
+                <div class="competition-item">
+                    <div style="margin-bottom: 8px;">
+                        <strong>👥 ${players}</strong>
+                    </div>
+                    <div style="font-size: 0.85em; color: #94a3b8;">
+                        <span class="time-badge">📅 ${comp.date || 'غير معروف'}</span>
+                        <span class="time-badge">⏰ ${comp.time || 'غير معروف'}</span>
                     </div>
                 </div>
             `;
@@ -1296,64 +832,1127 @@ window.showPlayersManagement = function() {
     document.getElementById('statsBox').innerHTML = html;
 };
 
-window.resetAllData = async function() {
-    if (currentUser?.role !== "admin") {
-        showToast("❌ ليس لديك صلاحية التصفير", "error");
+window.showTopPlayers = function() {
+    const stats = calculateStats('all');
+    const sorted = Object.entries(stats).sort((a,b) => {
+        // ترتيب حسب عدد الكنج أولاً، ثم نسبة الفوز
+        if (b[1].king !== a[1].king) return b[1].king - a[1].king;
+        const aWinRate = a[1].total > 0 ? (a[1].king / a[1].total) : 0;
+        const bWinRate = b[1].total > 0 ? (b[1].king / b[1].total) : 0;
+        return bWinRate - aWinRate;
+    }).slice(0, 10);
+    
+    let html = '<h4>🏆 أفضل 10 لاعبين</h4>';
+    
+    if (sorted.length === 0) {
+        html += '<p style="color: #94a3b8; text-align: center;">لا توجد بيانات</p>';
+    } else {
+        sorted.forEach(([player, data], index) => {
+            const medals = ['🥇', '🥈', '🥉', '4️⃣', '5️⃣', '6️⃣', '7️⃣', '8️⃣', '9️⃣', '🔟'];
+            const medal = medals[index] || '🎖️';
+            const winRate = data.total > 0 ? ((data.king / data.total) * 100).toFixed(1) : 0;
+            const lossRate = data.total > 0 ? ((data.bad / data.total) * 100).toFixed(1) : 0;
+            
+            html += `
+                <div class="competition-item">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                        <div>
+                            <strong>${medal} ${player}</strong>
+                            <div style="font-size: 0.85em; color: #94a3b8; margin-top: 5px;">
+                                <span class="user-badge">🎮 ${data.total} مباراة</span>
+                            </div>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="color: #22c55e; font-weight: bold;">${winRate}%</div>
+                            <div style="font-size: 0.8em; color: #94a3b8;">نسبة الفوز</div>
+                        </div>
+                    </div>
+                    
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; text-align: center;">
+                        <div>
+                            <div style="font-size: 1em; font-weight: bold; color: #fbbf24;">${data.king}</div>
+                            <div style="font-size: 0.8em; color: #94a3b8;">👑 الكنج</div>
+                        </div>
+                        <div>
+                            <div style="font-size: 1em; font-weight: bold; color: #ef4444;">${data.bad}</div>
+                            <div style="font-size: 0.8em; color: #94a3b8;">🤡 البعرور</div>
+                        </div>
+                    </div>
+                </div>
+            `;
+        });
+    }
+    
+    document.getElementById('statsBox').innerHTML = html;
+};
+
+window.showHistory = function() {
+    const statsBox = document.getElementById('statsBox');
+    
+    if (!window.competitions || window.competitions.length === 0) {
+        statsBox.innerHTML = '<p style="color: #94a3b8; text-align: center;">لا توجد دوريات</p>';
         return;
     }
     
-    showConfirmModal("🔥 تصفير جميع البيانات", 
-        "⚠️ تحذير: هذا الإجراء سيحذف جميع الدوريات من السحابة بشكل نهائي ولا يمكن التراجع عنه!", 
-        async () => {
-            try {
-                if (!window.isOnline) {
-                    showToast("❌ غير متصل بالإنترنت", "error");
-                    return;
-                }
+    let html = '<h4>📜 جميع الدوريات</h4>';
+    
+    window.competitions.forEach(c => {
+        const deleteBtn = (currentUser?.role === "admin" && window.deleteMode) ? 
+            `<button class="delete-btn" onclick="deleteCompetition('${c.firebaseId}')" title="حذف الدوري">×</button>` : '';
+        
+        const players = c.players ? c.players.join('، ') : 'لاعبون غير معروفين';
+        
+        html += `
+            <div class="competition-item ${(currentUser?.role === "admin" && window.deleteMode) ? "admin-visible" : ""}">
+                ${deleteBtn}
+                <div style="margin-bottom: 8px;">
+                    <strong>👥 ${players}</strong>
+                </div>
+                <div style="font-size: 0.85em;">
+                    <span class="user-badge">👤 ${c.addedByName || 'مجهول'}</span>
+                    <span class="time-badge">📅 ${c.date || 'غير معروف'}</span>
+                    <span class="time-badge">⏰ ${c.time || 'غير معروف'}</span>
+                </div>
+            </div>
+        `;
+    });
+    
+    statsBox.innerHTML = html;
+};
+
+// ==================== المقارنة المحسنة ====================
+function updateCompareMode() {
+    const compareType = document.getElementById('compareType').value;
+    updatePlayersLists();
+}
+
+window.comparePlayers = function() {
+    const playerA = document.getElementById('playerA').value;
+    const playerB = document.getElementById('playerB').value;
+    const compareType = document.getElementById('compareType').value;
+    const element = document.getElementById('compareElement').value;
+    
+    if (!playerA || !playerB) {
+        showToast("⚠️ يرجى اختيار لاعبين للمقارنة", "warning");
+        return;
+    }
+    
+    if (playerA === playerB) {
+        showToast("⚠️ يرجى اختيار لاعبين مختلفين", "warning");
+        return;
+    }
+    
+    const stats = calculateStats(compareType);
+    const aStats = stats[playerA] || { total: 0, king: 0, bad: 0 };
+    const bStats = stats[playerB] || { total: 0, king: 0, bad: 0 };
+    
+    const aWinRate = aStats.total > 0 ? ((aStats.king / aStats.total) * 100).toFixed(1) : 0;
+    const bWinRate = bStats.total > 0 ? ((bStats.king / bStats.total) * 100).toFixed(1) : 0;
+    const aKingRate = aStats.total > 0 ? ((aStats.king / aStats.total) * 100).toFixed(1) : 0;
+    const bKingRate = bStats.total > 0 ? ((bStats.king / bStats.total) * 100).toFixed(1) : 0;
+    const aBadRate = aStats.total > 0 ? ((aStats.bad / aStats.total) * 100).toFixed(1) : 0;
+    const bBadRate = bStats.total > 0 ? ((bStats.bad / bStats.total) * 100).toFixed(1) : 0;
+    
+    let aValue, bValue, aLabel, bLabel;
+    switch(element) {
+        case 'total': 
+            aValue = aStats.total; 
+            bValue = bStats.total;
+            aLabel = '🎮 مباراة';
+            bLabel = '🎮 مباراة';
+            break;
+        case 'king': 
+            aValue = aStats.king; 
+            bValue = bStats.king;
+            aLabel = '👑 كنج';
+            bLabel = '👑 كنج';
+            break;
+        case 'bad': 
+            aValue = aStats.bad; 
+            bValue = bStats.bad;
+            aLabel = '🤡 بعرور';
+            bLabel = '🤡 بعرور';
+            break;
+        case 'winRate': 
+            aValue = parseFloat(aWinRate); 
+            bValue = parseFloat(bWinRate);
+            aLabel = '📊 %';
+            bLabel = '📊 %';
+            break;
+        case 'kingRate': 
+            aValue = parseFloat(aKingRate); 
+            bValue = parseFloat(bKingRate);
+            aLabel = '👑 %';
+            bLabel = '👑 %';
+            break;
+        case 'badRate': 
+            aValue = parseFloat(aBadRate); 
+            bValue = parseFloat(bBadRate);
+            aLabel = '🤡 %';
+            bLabel = '🤡 %';
+            break;
+    }
+    
+    let winner = "";
+    let winnerClass = "";
+    if (aValue > bValue) {
+        const diff = (aValue - bValue).toFixed(1);
+        winner = `${playerA} يتفوق بـ ${diff}${element.includes('Rate') ? '%' : ''}`;
+        winnerClass = "winner";
+    } else if (bValue > aValue) {
+        const diff = (bValue - aValue).toFixed(1);
+        winner = `${playerB} يتفوق بـ ${diff}${element.includes('Rate') ? '%' : ''}`;
+        winnerClass = "loser";
+    } else {
+        winner = "تعادل تام";
+        winnerClass = "draw";
+    }
+    
+    const compareTypeText = compareType === 'individual' ? 'فردي' : 
+                          compareType === 'team' ? 'ثنائي' : 'جميع الدوريات';
+    
+    const compareResult = document.getElementById('compareResult');
+    compareResult.innerHTML = `
+        <div style="text-align: center;">
+            <h4>🆚 مقارنة ${compareTypeText}</h4>
+            <div style="display: flex; justify-content: space-around; margin: 20px 0;">
+                <div style="text-align: center;">
+                    <div style="font-size: 2em; font-weight: bold; color: #22c55e;">${aValue}${element.includes('Rate') ? '%' : ''}</div>
+                    <div style="font-size: 1.1em;">${playerA}</div>
+                    <div style="font-size: 0.85em; color: #94a3b8; margin-top: 5px;">
+                        ${aLabel}
+                    </div>
+                </div>
+                <div style="align-self: center; font-size: 1.5em;">VS</div>
+                <div style="text-align: center;">
+                    <div style="font-size: 2em; font-weight: bold; color: #3b82f6;">${bValue}${element.includes('Rate') ? '%' : ''}</div>
+                    <div style="font-size: 1.1em;">${playerB}</div>
+                    <div style="font-size: 0.85em; color: #94a3b8; margin-top: 5px;">
+                        ${bLabel}
+                    </div>
+                </div>
+            </div>
+            
+            <div style="background: #1e293b; padding: 15px; border-radius: 8px; margin-top: 15px;">
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 10px;">
+                    <div style="text-align: center;">
+                        <div style="color: #fbbf24;">👑 ${aStats.king} (${aKingRate}%)</div>
+                        <div style="font-size: 0.8em; color: #94a3b8;">${playerA}</div>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="color: #fbbf24;">👑 ${bStats.king} (${bKingRate}%)</div>
+                        <div style="font-size: 0.8em; color: #94a3b8;">${playerB}</div>
+                    </div>
+                </div>
                 
-                updateSyncStatus("🔥 جاري تصفير البيانات...", "syncing");
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                    <div style="text-align: center;">
+                        <div style="color: #ef4444;">🤡 ${aStats.bad} (${aBadRate}%)</div>
+                        <div style="font-size: 0.8em; color: #94a3b8;">${playerA}</div>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="color: #ef4444;">🤡 ${bStats.bad} (${bBadRate}%)</div>
+                        <div style="font-size: 0.8em; color: #94a3b8;">${playerB}</div>
+                    </div>
+                </div>
                 
-                // جلب جميع الدوريات لحذفها
-                const response = await fetch(
-                    "https://firestore.googleapis.com/v1/projects/winner-71276/databases/(default)/documents/competitions",
-                    { headers: { 'Accept': 'application/json' } }
-                );
+                <div style="margin-top: 10px; padding-top: 10px; border-top: 1px solid #334155;">
+                    <div style="color: #94a3b8; font-size: 0.9em;">
+                        نوع المقارنة: <strong>${compareTypeText}</strong>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="compare-result" style="margin-top: 15px;">
+                <div class="${winnerClass}" style="font-size: 1.2em; margin-bottom: 10px;">🏆 النتيجة</div>
+                <div style="font-size: 1.1em; font-weight: bold;">${winner}</div>
+                <div style="font-size: 0.9em; color: #94a3b8; margin-top: 5px;">
+                    ${aStats.total} vs ${bStats.total} مباراة
+                </div>
+            </div>
+        </div>
+    `;
+};
+
+// ==================== نظام النتائج القوية المنفصل ====================
+function toggleStrongTeamInputs() {
+    const gameType = document.getElementById('strongGameType').value;
+    document.getElementById('strongTeamInputs').style.display = gameType === '2v2' ? 'block' : 'none';
+}
+
+async function loadStrongResults() {
+    try {
+        const cloudData = await loadFromCloud('strongResults');
+        if (cloudData?.strongResults) {
+            window.strongResults = cloudData.strongResults;
+            displayStrongResultsHistory();
+        } else {
+            window.strongResults = [];
+            displayStrongResultsHistory();
+        }
+    } catch (error) {
+        console.error("❌ فشل تحميل النتائج القوية:", error);
+        window.strongResults = [];
+        displayStrongResultsHistory();
+    }
+}
+
+async function saveStrongResult() {
+    const winner = document.getElementById('strongWinner').value.trim();
+    const loser = document.getElementById('strongLoser').value.trim();
+    const scoreWinner = parseInt(document.getElementById('strongScoreWinner').value) || 0;
+    const scoreLoser = parseInt(document.getElementById('strongScoreLoser').value) || 0;
+    const gameType = document.getElementById('strongGameType').value;
+    const notes = document.getElementById('strongNotes').value.trim();
+    
+    let winnerPartner = '';
+    let loserPartner = '';
+    
+    if (gameType === '2v2') {
+        winnerPartner = document.getElementById('strongWinnerPartner').value.trim();
+        loserPartner = document.getElementById('strongLoserPartner').value.trim();
+        
+        if (!winnerPartner || !loserPartner) {
+            showToast("⚠️ يرجى إدخال أسماء الشركاء للثنائي", "warning");
+            return;
+        }
+    }
+    
+    if (!winner || !loser) {
+        showToast("⚠️ يرجى إدخال أسماء اللاعبين", "warning");
+        return;
+    }
+    
+    if (winner === loser || (gameType === '2v2' && (winner === loserPartner || loser === winnerPartner))) {
+        showToast("⚠️ لا يمكن أن يكون اللاعب ضد نفسه", "warning");
+        return;
+    }
+    
+    if (scoreWinner <= 0 || scoreLoser < 0) {
+        showToast("⚠️ يرجى إدخال نتائج صحيحة", "warning");
+        return;
+    }
+    
+    if (!currentUser) {
+        showToast("❌ يجب تسجيل الدخول أولاً", "error");
+        return;
+    }
+    
+    if (!window.isOnline) {
+        showToast("❌ غير متصل بالإنترنت", "error");
+        return;
+    }
+    
+    try {
+        updateSyncStatus("💪 جاري حفظ النتيجة القوية...", "syncing");
+        
+        const now = new Date();
+        const strongResultData = {
+            winner: winner,
+            loser: loser,
+            scoreWinner: scoreWinner,
+            scoreLoser: scoreLoser,
+            gameType: gameType,
+            notes: notes,
+            addedBy: currentUser.username,
+            addedByName: currentUser.name,
+            timestamp: now.toISOString(),
+            date: now.toLocaleDateString('ar-SA'),
+            time: now.toLocaleTimeString('ar-SA', { hour: '2-digit', minute: '2-digit' })
+        };
+        
+        if (gameType === '2v2') {
+            strongResultData.winnerPartner = winnerPartner;
+            strongResultData.loserPartner = loserPartner;
+        }
+        
+        // حساب قوة النتيجة
+        const totalGames = scoreWinner + scoreLoser;
+        const winPercentage = ((scoreWinner / totalGames) * 100).toFixed(1);
+        strongResultData.strength = winPercentage;
+        
+        // حفظ في السحابة
+        const firebaseId = await saveToCloud('strongResults', strongResultData);
+        
+        if (firebaseId) {
+            strongResultData.firebaseId = firebaseId;
+            window.strongResults.unshift(strongResultData);
+            
+            // تحديث الواجهة
+            displayStrongResultsHistory();
+            updatePlayersLists();
+            
+            updateSyncStatus("✅ تم الحفظ", "online");
+            showToast(`💪 تم حفظ النتيجة القوية: ${winner} ${scoreWinner}-${scoreLoser} ${loser}`);
+            clearStrongForm();
+        }
+        
+    } catch (error) {
+        console.error("❌ خطأ في حفظ النتيجة القوية:", error);
+        updateSyncStatus("❌ فشل الحفظ", "error");
+        showToast("❌ حدث خطأ في حفظ النتيجة القوية: " + error.message, "error");
+    }
+}
+
+function clearStrongForm() {
+    document.getElementById('strongWinner').value = '';
+    document.getElementById('strongLoser').value = '';
+    document.getElementById('strongScoreWinner').value = '6';
+    document.getElementById('strongScoreLoser').value = '1';
+    document.getElementById('strongGameType').value = '1v1';
+    document.getElementById('strongWinnerPartner').value = '';
+    document.getElementById('strongLoserPartner').value = '';
+    document.getElementById('strongNotes').value = '';
+    document.getElementById('strongTeamInputs').style.display = 'none';
+}
+
+function displayStrongResultsHistory() {
+    const historyElement = document.getElementById('strongResultsHistory');
+    
+    if (!window.strongResults || window.strongResults.length === 0) {
+        historyElement.innerHTML = '<p style="text-align: center; color: #94a3b8;">لا توجد نتائج قوية</p>';
+        return;
+    }
+    
+    const recent = window.strongResults.slice(0, 10);
+    let html = '';
+    
+    recent.forEach(sr => {
+        const deleteBtn = (currentUser?.role === "admin" && window.deleteMode) ? 
+            `<button class="delete-btn" onclick="deleteStrongResult('${sr.firebaseId}')" title="حذف النتيجة">×</button>` : '';
+        
+        const strengthBadge = sr.strength > 80 ? `<span class="strong-badge">💪 ${sr.strength}%</span>` : '';
+        
+        html += `
+            <div class="competition-item strong-result-item ${(currentUser?.role === "admin" && window.deleteMode) ? "admin-visible" : ""}">
+                ${deleteBtn}
                 
-                if (response.ok) {
-                    const data = await response.json();
-                    let deletedCount = 0;
+                <div style="margin-bottom: 10px;">
+                    <div class="score-display">
+                        <span class="winner">${sr.winner} ${sr.scoreWinner}</span>
+                        <span class="vs">-</span>
+                        <span class="loser">${sr.scoreLoser} ${sr.loser}</span>
+                    </div>
                     
-                    if (data.documents && data.documents.length > 0) {
-                        for (const doc of data.documents) {
-                            try {
-                                await fetch(`https://firestore.googleapis.com/v1/${doc.name}`, { 
-                                    method: 'DELETE',
-                                    signal: AbortSignal.timeout(5000)
-                                });
-                                deletedCount++;
-                            } catch (e) {
-                                console.error(`❌ فشل حذف مستند: ${doc.name}`, e);
-                            }
+                    ${sr.gameType === '2v2' ? `
+                    <div style="text-align: center; font-size: 0.85em; color: #94a3b8; margin-top: 5px;">
+                        مع ${sr.winnerPartner} & ${sr.loserPartner}
+                    </div>
+                    ` : ''}
+                </div>
+                
+                <div style="font-size: 0.85em;">
+                    <span class="user-badge">${sr.gameType === '1v1' ? '🎮 فردي' : '👥 ثنائي'}</span>
+                    <span class="user-badge">👤 ${sr.addedByName || 'مجهول'}</span>
+                    <span class="time-badge">📅 ${sr.date || 'غير معروف'}</span>
+                    ${strengthBadge}
+                </div>
+                
+                ${sr.notes ? `
+                <div style="margin-top: 8px; padding: 8px; background: #1e293b; border-radius: 5px; font-size: 0.85em; color: #94a3b8;">
+                    📝 ${sr.notes}
+                </div>
+                ` : ''}
+            </div>
+        `;
+    });
+    
+    historyElement.innerHTML = html;
+}
+
+async function deleteStrongResult(firebaseId) {
+    if (!currentUser || currentUser.role !== "admin") {
+        showToast("❌ ليس لديك صلاحية الحذف", "error");
+        return;
+    }
+    
+    showConfirmModal("حذف نتيجة قوية", "هل تريد حذف هذه النتيجة القوية؟", async () => {
+        try {
+            await deleteFromCloud('strongResults', firebaseId);
+            window.strongResults = window.strongResults.filter(sr => sr.firebaseId !== firebaseId);
+            displayStrongResultsHistory();
+            showToast("✅ تم حذف النتيجة القوية");
+        } catch (error) {
+            console.error("❌ خطأ في حذف النتيجة:", error);
+            showToast("❌ حدث خطأ في حذف النتيجة", "error");
+        }
+    });
+}
+
+window.showStrongStats = function(type) {
+    let filteredResults = window.strongResults || [];
+    
+    if (type !== 'all') {
+        filteredResults = filteredResults.filter(sr => sr.gameType === type);
+    }
+    
+    const statsBox = document.getElementById('strongStatsBox');
+    
+    if (!filteredResults || filteredResults.length === 0) {
+        statsBox.innerHTML = '<p style="color: #94a3b8; text-align: center;">لا توجد نتائج قوية</p>';
+        return;
+    }
+    
+    let html = `<h4>📊 إحصائيات النتائج القوية ${type === '1v1' ? '(فردي)' : type === '2v2' ? '(ثنائي)' : '(جميع)'}</h4>`;
+    
+    // إحصائيات عامة
+    const totalMatches = filteredResults.length;
+    const totalPlayers = new Set();
+    const totalGames = filteredResults.reduce((sum, sr) => sum + (sr.scoreWinner || 0) + (sr.scoreLoser || 0), 0);
+    const avgStrength = (filteredResults.reduce((sum, sr) => sum + parseFloat(sr.strength || 0), 0) / totalMatches).toFixed(1);
+    
+    filteredResults.forEach(sr => {
+        if (sr.winner) totalPlayers.add(sr.winner);
+        if (sr.loser) totalPlayers.add(sr.loser);
+        if (sr.winnerPartner) totalPlayers.add(sr.winnerPartner);
+        if (sr.loserPartner) totalPlayers.add(sr.loserPartner);
+    });
+    
+    html += `
+        <div class="stat-card">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; text-align: center; margin-bottom: 15px;">
+                <div>
+                    <div style="font-size: 1.5em; font-weight: bold; color: #f59e0b;">${totalMatches}</div>
+                    <div style="font-size: 0.8em; color: #94a3b8;">مباراة</div>
+                </div>
+                <div>
+                    <div style="font-size: 1.5em; font-weight: bold; color: #3b82f6;">${totalPlayers.size}</div>
+                    <div style="font-size: 0.8em; color: #94a3b8;">لاعب</div>
+                </div>
+            </div>
+            
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; text-align: center;">
+                <div>
+                    <div style="font-size: 1.2em; font-weight: bold; color: #22c55e;">${totalGames}</div>
+                    <div style="font-size: 0.8em; color: #94a3b8;">جولة</div>
+                </div>
+                <div>
+                    <div style="font-size: 1.2em; font-weight: bold; color: #ef4444;">${avgStrength}%</div>
+                    <div style="font-size: 0.8em; color: #94a3b8;">متوسط القوة</div>
+                </div>
+            </div>
+        </div>
+    `;
+    
+    statsBox.innerHTML = html;
+};
+
+window.showStrongResultsSection = function() {
+    showTab('strongResults');
+};
+
+// ==================== إدارة اللاعبين ====================
+window.showPlayersManagement = function() {
+    if (currentUser?.role !== "admin") {
+        showToast("❌ ليس لديك صلاحية الوصول", "error");
+        return;
+    }
+    
+    const allPlayers = getAllPlayers();
+    
+    let html = '<h4>👥 إدارة اللاعبين</h4>';
+    
+    if (allPlayers.length === 0) {
+        html += '<p style="color: #94a3b8; text-align: center;">لا يوجد لاعبين</p>';
+    } else {
+        html += '<div style="margin-bottom: 15px;">';
+        html += `<p style="color: #94a3b8; text-align: center;">إجمالي اللاعبين: <strong>${allPlayers.length}</strong></p>`;
+        html += '</div>';
+        
+        allPlayers.forEach(player => {
+            html += `
+                <div class="player-card">
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <strong>${player}</strong>
+                        </div>
+                        <div class="player-actions">
+                            <button onclick="renamePlayer('${player}')" class="secondary">✏️ تعديل</button>
+                            <button onclick="deletePlayer('${player}')" class="danger">🗑️ حذف</button>
+                        </div>
+                    </div>
+                </div>
+            `;
+        });
+        
+        html += `
+            <div style="margin-top: 20px; padding: 15px; background: #1e293b; border-radius: 8px;">
+                <h5 style="margin-top: 0; margin-bottom: 15px; color: #8b5cf6;">➕ إضافة لاعب جديد</h5>
+                <input type="text" id="newPlayerName" placeholder="اسم اللاعب الجديد" style="margin-bottom: 10px;">
+                <button onclick="addNewPlayer()" class="admin" style="width: 100%;">➕ إضافة لاعب</button>
+            </div>
+        `;
+    }
+    
+    document.getElementById('statsBox').innerHTML = html;
+    showTab('stats');
+};
+
+function getAllPlayers() {
+    const allPlayersSet = new Set();
+    
+    // من الدوريات
+    if (window.competitions && Array.isArray(window.competitions)) {
+        window.competitions.forEach(c => {
+            if (c.players && Array.isArray(c.players)) {
+                c.players.forEach(p => {
+                    if (p.includes(" & ")) {
+                        p.split(" & ").forEach(pl => {
+                            const trimmed = pl.trim();
+                            if (trimmed) allPlayersSet.add(trimmed);
+                        });
+                    } else {
+                        const trimmed = p.trim();
+                        if (trimmed) allPlayersSet.add(trimmed);
+                    }
+                });
+            }
+        });
+    }
+    
+    // من النتائج القوية
+    if (window.strongResults && Array.isArray(window.strongResults)) {
+        window.strongResults.forEach(sr => {
+            if (sr.winner) allPlayersSet.add(sr.winner.trim());
+            if (sr.loser) allPlayersSet.add(sr.loser.trim());
+            if (sr.winnerPartner) allPlayersSet.add(sr.winnerPartner.trim());
+            if (sr.loserPartner) allPlayersSet.add(sr.loserPartner.trim());
+        });
+    }
+    
+    // من المستخدمين
+    USERS.forEach(user => {
+        if (user.n) allPlayersSet.add(user.n.trim());
+    });
+    
+    return Array.from(allPlayersSet).sort();
+}
+
+// ==================== دوال السحابة العامة ====================
+async function loadFromCloud(collection) {
+    if (!window.firebaseEnabled) {
+        console.log(`⚠️ ${collection}: السحابة معطلة`);
+        return null;
+    }
+    
+    if (!window.isOnline) {
+        console.log(`⚠️ ${collection}: غير متصل بالإنترنت`);
+        updateSyncStatus("🔴 غير متصل", "offline");
+        return null;
+    }
+    
+    try {
+        updateSyncStatus(`🔄 جاري تحميل ${collection}...`, "syncing");
+        
+        const response = await fetch(
+            `https://firestore.googleapis.com/v1/projects/winner-71276/databases/(default)/documents/${collection}`,
+            { 
+                headers: { 'Accept': 'application/json' }
+            }
+        );
+        
+        if (response.ok) {
+            const data = await response.json();
+            
+            const items = [];
+            
+            if (data.documents) {
+                data.documents.forEach(doc => {
+                    const fields = doc.fields;
+                    const item = { firebaseId: doc.name.split('/').pop() };
+                    
+                    // استخراج جميع الحقول
+                    for (const [key, value] of Object.entries(fields)) {
+                        if (value.stringValue !== undefined) {
+                            item[key] = value.stringValue;
+                        } else if (value.integerValue !== undefined) {
+                            item[key] = parseInt(value.integerValue);
+                        } else if (value.doubleValue !== undefined) {
+                            item[key] = parseFloat(value.doubleValue);
+                        } else if (value.booleanValue !== undefined) {
+                            item[key] = value.booleanValue;
+                        } else if (value.arrayValue?.values) {
+                            item[key] = value.arrayValue.values.map(v => v.stringValue);
                         }
                     }
                     
-                    // تصفير المصفوفة المحلية
-                    window.competitions = [];
-                    
-                    // تحديث الواجهة
-                    updateAppStats();
-                    displayCompetitionsHistory();
-                    updatePlayersLists();
-                    
-                    updateSyncStatus("✅ تم التصفير", "online");
-                    showToast(`✅ تم حذف ${deletedCount} دوري من السحابة`);
-                    
+                    items.push(item);
+                });
+            }
+            
+            console.log(`✅ تم تحميل ${items.length} عنصر من ${collection}`);
+            
+            if (collection === 'competitions') {
+                return { competitions: items };
+            } else if (collection === 'strongResults') {
+                return { strongResults: items };
+            }
+            
+        } else {
+            console.error(`❌ خطأ في ${collection}: ${response.status}`);
+            return null;
+        }
+    } catch (error) {
+        console.error(`❌ فشل تحميل ${collection}:`, error);
+        return null;
+    }
+}
+
+async function saveToCloud(collection, data) {
+    if (!window.firebaseEnabled || !window.isOnline) {
+        throw new Error("غير متصل بالإنترنت");
+    }
+    
+    try {
+        const firestoreData = { fields: {} };
+        
+        for (const [key, value] of Object.entries(data)) {
+            if (key === 'firebaseId') continue;
+            
+            if (typeof value === 'string') {
+                firestoreData.fields[key] = { stringValue: value };
+            } else if (typeof value === 'number') {
+                if (Number.isInteger(value)) {
+                    firestoreData.fields[key] = { integerValue: value.toString() };
                 } else {
-                    throw new Error('فشل جلب البيانات للحذف');
+                    firestoreData.fields[key] = { doubleValue: value };
+                }
+            } else if (typeof value === 'boolean') {
+                firestoreData.fields[key] = { booleanValue: value };
+            } else if (Array.isArray(value)) {
+                firestoreData.fields[key] = {
+                    arrayValue: {
+                        values: value.map(v => ({ stringValue: v }))
+                    }
+                };
+            }
+        }
+        
+        const response = await fetch(
+            `https://firestore.googleapis.com/v1/projects/winner-71276/databases/(default)/documents/${collection}`,
+            {
+                method: 'POST',
+                headers: { 
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: JSON.stringify(firestoreData)
+            }
+        );
+        
+        if (response.ok) {
+            const result = await response.json();
+            return result.name.split('/').pop();
+        } else {
+            const errorData = await response.json();
+            throw new Error(errorData.error?.message || `فشل حفظ البيانات في ${collection}`);
+        }
+    } catch (error) {
+        console.error(`❌ فشل حفظ البيانات في ${collection}:`, error);
+        throw error;
+    }
+}
+
+async function deleteFromCloud(collection, firebaseId) {
+    if (!window.firebaseEnabled || !window.isOnline) {
+        throw new Error("غير متصل بالإنترنت");
+    }
+    
+    try {
+        const response = await fetch(
+            `https://firestore.googleapis.com/v1/projects/winner-71276/databases/(default)/documents/${collection}/${firebaseId}`,
+            { 
+                method: 'DELETE'
+            }
+        );
+        
+        if (!response.ok) {
+            const errorData = await response.json();
+            throw new Error(errorData.error?.message || `فشل حذف البيانات من ${collection}`);
+        }
+        
+        return true;
+    } catch (error) {
+        console.error(`❌ فشل حذف البيانات من ${collection}:`, error);
+        throw error;
+    }
+}
+
+// ==================== إدارة المستخدمين ====================
+window.showUsersManagement = function() {
+    if (!currentUser || currentUser.role !== "admin") {
+        showToast("❌ ليس لديك صلاحية الوصول", "error");
+        return;
+    }
+    
+    let html = '<h4 style="color: #8b5cf6; margin-top: 0;">👤 إدارة المستخدمين</h4>';
+    
+    html += `
+        <div style="margin-bottom: 20px; padding: 15px; background: #1e293b; border-radius: 8px;">
+            <h5 style="margin-top: 0; margin-bottom: 15px;">➕ إضافة مستخدم جديد</h5>
+            <div style="display: grid; gap: 10px;">
+                <input type="text" id="newUserName" placeholder="اسم المستخدم (للدخول)" style="margin-bottom: 5px;">
+                <input type="text" id="newUserDisplayName" placeholder="الاسم المعروض" style="margin-bottom: 5px;">
+                <input type="password" id="newUserPassword" placeholder="كلمة المرور" style="margin-bottom: 5px;">
+                <select id="newUserRole" style="margin-bottom: 10px;">
+                    <option value="user">👤 مستخدم عادي</option>
+                    <option value="admin">👑 مسؤول</option>
+                </select>
+                <button onclick="addNewUser()" class="admin">➕ إضافة مستخدم</button>
+            </div>
+        </div>
+    `;
+    
+    html += '<h5 style="margin-bottom: 15px;">📋 قائمة المستخدمين</h5>';
+    
+    if (USERS.length === 0) {
+        html += '<p style="color: #94a3b8; text-align: center;">لا يوجد مستخدمين</p>';
+    } else {
+        USERS.forEach((user, index) => {
+            const roleBadge = user.r === "admin" ? 
+                '<span class="admin-badge" style="margin-left: 8px;">👑 أدمن</span>' : 
+                '<span class="user-badge" style="margin-left: 8px;">👤 مستخدم</span>';
+            
+            const isCurrentUser = currentUser.username === user.u;
+            const currentUserBadge = isCurrentUser ? 
+                '<span class="time-badge" style="margin-left: 8px;">💻 أنت</span>' : '';
+            
+            html += `
+                <div class="player-card" style="border-left-color: ${user.r === 'admin' ? '#8b5cf6' : '#3b82f6'}">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                        <div>
+                            <strong>${user.n}</strong>
+                            <div style="font-size: 0.85em; color: #94a3b8; margin-top: 5px;">
+                                اسم الدخول: ${user.u}
+                                ${roleBadge}
+                                ${currentUserBadge}
+                            </div>
+                        </div>
+                        <div class="player-actions">
+                            ${!isCurrentUser ? `
+                            <button onclick="editUser('${user.u}')" class="secondary">✏️ تعديل</button>
+                            <button onclick="deleteUser('${user.u}')" class="danger">🗑️ حذف</button>
+                            ` : `
+                            <span style="color: #94a3b8; font-size: 0.9em;">لا يمكن تعديل حسابك</span>
+                            `}
+                        </div>
+                    </div>
+                </div>
+            `;
+        });
+        
+        html += `
+            <div class="info-text" style="margin-top: 20px; padding: 10px; border-top: 1px solid #334155;">
+                💡 <strong>ملاحظة:</strong> إجمالي المستخدمين: ${USERS.length} | المسؤولين: ${USERS.filter(u => u.r === 'admin').length}
+            </div>
+        `;
+    }
+    
+    document.getElementById('statsBox').innerHTML = html;
+    showTab('stats');
+};
+
+async function addNewUser() {
+    const username = document.getElementById('newUserName').value.trim();
+    const displayName = document.getElementById('newUserDisplayName').value.trim();
+    const password = document.getElementById('newUserPassword').value;
+    const role = document.getElementById('newUserRole').value;
+    
+    if (!username || !displayName || !password) {
+        showToast("⚠️ يرجى ملء جميع الحقول", "warning");
+        return;
+    }
+    
+    if (username.length < 3) {
+        showToast("⚠️ اسم المستخدم يجب أن يكون 3 أحرف على الأقل", "warning");
+        return;
+    }
+    
+    if (password.length < 4) {
+        showToast("⚠️ كلمة المرور يجب أن تكون 4 أحرف على الأقل", "warning");
+        return;
+    }
+    
+    // التحقق من عدم تكرار اسم المستخدم
+    if (USERS.some(u => u.u === username)) {
+        showToast("⚠️ اسم المستخدم موجود مسبقاً", "warning");
+        return;
+    }
+    
+    try {
+        // حفظ المستخدم الجديد
+        const newUser = {
+            u: username,
+            p: password,
+            n: displayName,
+            r: role,
+            createdBy: currentUser.username,
+            createdDate: new Date().toISOString()
+        };
+        
+        USERS.push(newUser);
+        
+        // في تطبيق حقيقي، هنا نرسل البيانات للسحابة
+        showToast(`✅ تم إضافة المستخدم: ${displayName}`);
+        
+        // تحديث الواجهة
+        showUsersManagement();
+        
+        // مسح الحقول
+        document.getElementById('newUserName').value = '';
+        document.getElementById('newUserDisplayName').value = '';
+        document.getElementById('newUserPassword').value = '';
+        
+    } catch (error) {
+        console.error("❌ خطأ في إضافة المستخدم:", error);
+        showToast("❌ حدث خطأ في إضافة المستخدم", "error");
+    }
+};
+
+async function editUser(username) {
+    const user = USERS.find(u => u.u === username);
+    if (!user) return;
+    
+    if (currentUser.username === username) {
+        showToast("❌ لا يمكن تعديل حسابك الشخصي من هنا", "warning");
+        return;
+    }
+    
+    const newDisplayName = prompt("الاسم الجديد المعروض:", user.n);
+    if (!newDisplayName || newDisplayName.trim() === "") return;
+    
+    const newRole = confirm(`هل تريد جعل ${newDisplayName} مسؤولاً؟\n\nاضغط "موافق" لجعله مسؤول، "إلغاء" لجعله مستخدم عادي`) ? "admin" : "user";
+    
+    const newPassword = prompt("كلمة المرور الجديدة (اترك فارغاً لحفظ القديمة):");
+    
+    try {
+        user.n = newDisplayName.trim();
+        user.r = newRole;
+        
+        if (newPassword && newPassword.length >= 4) {
+            user.p = newPassword;
+        }
+        
+        showToast(`✅ تم تعديل المستخدم: ${user.n}`);
+        showUsersManagement();
+        
+    } catch (error) {
+        console.error("❌ خطأ في تعديل المستخدم:", error);
+        showToast("❌ حدث خطأ في تعديل المستخدم", "error");
+    }
+};
+
+async function deleteUser(username) {
+    if (currentUser.username === username) {
+        showToast("❌ لا يمكن حذف حسابك الشخصي", "warning");
+        return;
+    }
+    
+    const user = USERS.find(u => u.u === username);
+    if (!user) return;
+    
+    showConfirmModal("حذف مستخدم", `هل تريد حذف المستخدم "${user.n}"؟\n\n⚠️ سيتم فقدان جميع بياناته`, async () => {
+        try {
+            USERS = USERS.filter(u => u.u !== username);
+            showToast(`✅ تم حذف المستخدم: ${user.n}`);
+            showUsersManagement();
+        } catch (error) {
+            console.error("❌ خطأ في حذف المستخدم:", error);
+            showToast("❌ حدث خطأ في حذف المستخدم", "error");
+        }
+    });
+};
+
+// ==================== إحصائيات النظام ====================
+window.showSyncStats = function() {
+    if (!currentUser || currentUser.role !== "admin") {
+        showToast("❌ ليس لديك صلاحية الوصول", "error");
+        return;
+    }
+    
+    const totalCompetitions = window.competitions?.length || 0;
+    const totalStrongResults = window.strongResults?.length || 0;
+    const totalUsers = USERS.length;
+    const adminUsers = USERS.filter(u => u.r === 'admin').length;
+    const totalPlayers = getAllPlayers().length;
+    
+    const now = new Date();
+    const last24Hours = new Date(now.getTime() - (24 * 60 * 60 * 1000));
+    
+    const recentCompetitions = window.competitions?.filter(c => {
+        const compDate = new Date(c.timestamp || c.date);
+        return compDate > last24Hours;
+    }).length || 0;
+    
+    let html = '<h4 style="color: #8b5cf6;">📊 إحصائيات النظام</h4>';
+    
+    html += `
+        <div class="stat-card">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; text-align: center; margin-bottom: 20px;">
+                <div>
+                    <div style="font-size: 1.5em; font-weight: bold; color: #22c55e;">${totalCompetitions}</div>
+                    <div style="font-size: 0.9em; color: #94a3b8;">الدوريات</div>
+                </div>
+                <div>
+                    <div style="font-size: 1.5em; font-weight: bold; color: #f59e0b;">${totalStrongResults}</div>
+                    <div style="font-size: 0.9em; color: #94a3b8;">نتائج قوية</div>
+                </div>
+            </div>
+            
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; text-align: center; margin-bottom: 20px;">
+                <div>
+                    <div style="font-size: 1.5em; font-weight: bold; color: #3b82f6;">${totalPlayers}</div>
+                    <div style="font-size: 0.9em; color: #94a3b8;">لاعب</div>
+                </div>
+                <div>
+                    <div style="font-size: 1.5em; font-weight: bold; color: #8b5cf6;">${totalUsers}</div>
+                    <div style="font-size: 0.9em; color: #94a3b8;">مستخدم</div>
+                </div>
+            </div>
+            
+            <div class="stats-row">
+                <span>المسؤولون:</span>
+                <span style="color: #fbbf24; font-weight: bold;">${adminUsers}</span>
+            </div>
+            
+            <div class="stats-row">
+                <span>المستخدمون العاديون:</span>
+                <span style="color: #3b82f6; font-weight: bold;">${totalUsers - adminUsers}</span>
+            </div>
+            
+            <div class="stats-row">
+                <span>الدوريات (آخر 24 ساعة):</span>
+                <span style="color: #22c55e; font-weight: bold;">${recentCompetitions}</span>
+            </div>
+            
+            <div class="stats-row">
+                <span>حالة الاتصال:</span>
+                <span style="color: ${window.isOnline ? '#22c55e' : '#ef4444'}; font-weight: bold;">
+                    ${window.isOnline ? '🟢 متصل' : '🔴 غير متصل'}
+                </span>
+            </div>
+            
+            <div class="stats-row">
+                <span>الإصدار:</span>
+                <span style="color: #f59e0b; font-weight: bold;">KingBad Stats v3.5</span>
+            </div>
+        </div>
+        
+        <div style="margin-top: 20px; padding: 15px; background: #1e293b; border-radius: 8px;">
+            <h5 style="margin-top: 0; margin-bottom: 15px;">⚙️ إجراءات النظام</h5>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                <button onclick="clearCache()" class="warning">🗑️ مسح الكاش</button>
+                <button onclick="exportAllData()" class="secondary">📥 تصدير الكل</button>
+            </div>
+        </div>
+    `;
+    
+    document.getElementById('statsBox').innerHTML = html;
+    showTab('stats');
+};
+
+function clearCache() {
+    if (!currentUser || currentUser.role !== "admin") {
+        showToast("❌ ليس لديك صلاحية الوصول", "error");
+        return;
+    }
+    
+    showConfirmModal("مسح الكاش", "هل تريد مسح البيانات المخزنة محلياً؟\n\n⚠️ هذا لن يحذف البيانات من السحابة", () => {
+        window.competitions = [];
+        window.strongResults = [];
+        updateAppStats();
+        displayCompetitionsHistory();
+        displayStrongResultsHistory();
+        showToast("✅ تم مسح الكاش المحلي");
+    });
+};
+
+function exportAllData() {
+    if (!currentUser || currentUser.role !== "admin") {
+        showToast("❌ ليس لديك صلاحية الوصول", "error");
+        return;
+    }
+    
+    const exportData = {
+        version: "KingBad Stats v3.5",
+        exportDate: new Date().toISOString(),
+        exportedBy: currentUser.username,
+        users: USERS.map(u => ({
+            u: u.u,
+            n: u.n,
+            r: u.r,
+            createdBy: u.createdBy,
+            createdDate: u.createdDate
+        })),
+        competitions: window.competitions,
+        strongResults: window.strongResults,
+        stats: {
+            totalCompetitions: window.competitions?.length || 0,
+            totalStrongResults: window.strongResults?.length || 0,
+            totalPlayers: getAllPlayers().length,
+            totalUsers: USERS.length
+        }
+    };
+    
+    const dataStr = JSON.stringify(exportData, null, 2);
+    const dataBlob = new Blob([dataStr], {type: 'application/json'});
+    const url = URL.createObjectURL(dataBlob);
+    
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `kingbad-backup-${new Date().toISOString().split('T')[0]}.json`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    
+    showToast("✅ تم تصدير جميع البيانات");
+};
+
+// ==================== إعادة ضبط جميع البيانات ====================
+async function resetAllData() {
+    if (!currentUser || currentUser.role !== "admin") {
+        showToast("❌ ليس لديك صلاحية الوصول", "error");
+        return;
+    }
+    
+    showConfirmModal(
+        "🔥 تصفير جميع البيانات", 
+        "هل أنت متأكد من تصفير جميع البيانات؟\n\n⚠️ هذا الإجراء سوف:\n• يحذف جميع الدوريات\n• يحذف جميع النتائج القوية\n• لا يحذف المستخدمين\n\nهذا الإجراء لا يمكن التراجع عنه!",
+        async () => {
+            try {
+                updateSyncStatus("🔥 جاري تصفير البيانات...", "syncing");
+                
+                // حذف جميع الدوريات من السحابة
+                if (window.competitions && Array.isArray(window.competitions)) {
+                    const deletePromises = window.competitions.map(comp => 
+                        comp.firebaseId ? deleteFromCloud('competitions', comp.firebaseId) : Promise.resolve()
+                    );
+                    await Promise.all(deletePromises);
                 }
                 
+                // حذف جميع النتائج القوية من السحابة
+                if (window.strongResults && Array.isArray(window.strongResults)) {
+                    const deletePromises = window.strongResults.map(result => 
+                        result.firebaseId ? deleteFromCloud('strongResults', result.firebaseId) : Promise.resolve()
+                    );
+                    await Promise.all(deletePromises);
+                }
+                
+                // تصفير الذاكرة المحلية
+                window.competitions = [];
+                window.strongResults = [];
+                
+                // تحديث الواجهة
+                updateAppStats();
+                displayCompetitionsHistory();
+                displayStrongResultsHistory();
+                updatePlayersLists();
+                
+                updateSyncStatus("✅ تم التصفير", "online");
+                showToast("✅ تم تصفير جميع البيانات بنجاح");
+                
             } catch (error) {
-                console.error("❌ حدث خطأ في التصفير:", error);
+                console.error("❌ خطأ في تصفير البيانات:", error);
                 updateSyncStatus("❌ فشل التصفير", "error");
                 showToast("❌ حدث خطأ في تصفير البيانات", "error");
             }
@@ -1361,101 +1960,144 @@ window.resetAllData = async function() {
     );
 };
 
-window.showSyncStats = function() {
-    let html = '<h4>📊 إحصائيات النظام</h4>';
-    
-    const stats = window.buildStats('all');
-    const totalPlayers = Object.keys(stats).length;
-    const totalCompetitions = window.competitions.length;
-    
-    // حساب المتوسطات
-    let avgWinRate = 0;
-    let avgKingRate = 0;
-    let avgBadRate = 0;
-    
-    if (totalPlayers > 0) {
-        Object.values(stats).forEach(data => {
-            avgWinRate += parseFloat(data.winRate);
-            avgKingRate += parseFloat(data.kingRate);
-            avgBadRate += parseFloat(data.badRate);
-        });
+// ==================== دالة تحميل جميع البيانات ====================
+async function loadAllData() {
+    try {
+        updateSyncStatus("🔄 جاري تحميل جميع البيانات...", "syncing");
         
-        avgWinRate = (avgWinRate / totalPlayers).toFixed(1);
-        avgKingRate = (avgKingRate / totalPlayers).toFixed(1);
-        avgBadRate = (avgBadRate / totalPlayers).toFixed(1);
+        // تحميل الدوريات والنتائج القوية
+        const compData = await loadFromCloud('competitions');
+        const strongData = await loadFromCloud('strongResults');
+        
+        if (compData?.competitions) {
+            window.competitions = compData.competitions;
+            updateAppStats();
+            displayCompetitionsHistory();
+        }
+        
+        if (strongData?.strongResults) {
+            window.strongResults = strongData.strongResults;
+            displayStrongResultsHistory();
+        }
+        
+        updatePlayersLists();
+        updateSyncStatus("✅ تم تحميل جميع البيانات", "online");
+        showToast("✅ تم تحديث جميع البيانات");
+        
+    } catch (error) {
+        console.error("❌ خطأ في تحميل البيانات:", error);
+        updateSyncStatus("❌ فشل التحميل", "error");
+        showToast("❌ حدث خطأ في تحميل البيانات", "error");
+    }
+}
+
+async function loadCompetitions() {
+    try {
+        updateSyncStatus("🔄 جاري تحميل الدوريات...", "syncing");
+        
+        const cloudData = await loadFromCloud('competitions');
+        if (cloudData?.competitions) {
+            window.competitions = cloudData.competitions;
+            updateAppStats();
+            displayCompetitionsHistory();
+            updatePlayersLists();
+            updateSyncStatus("✅ تم تحميل الدوريات", "online");
+        }
+        
+    } catch (error) {
+        console.error("❌ فشل تحميل الدوريات:", error);
+        updateSyncStatus("❌ فشل التحميل", "error");
+    }
+}
+
+// ==================== الدوال الرئيسية ====================
+window.login = function() {
+    const username = document.getElementById('user').value;
+    const password = document.getElementById('pass').value;
+    
+    if (!username || !password) {
+        document.getElementById('loginMsg').textContent = "⚠️ يرجى إدخال اسم المستخدم وكلمة المرور";
+        return;
     }
     
-    html += `
-        <div class="competition-item">
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; text-align: center;">
-                <div>
-                    <div style="font-size: 1.5em; font-weight: bold; color: #22c55e;">${totalCompetitions}</div>
-                    <div style="font-size: 0.9em; color: #94a3b8;">الدوريات</div>
-                </div>
-                <div>
-                    <div style="font-size: 1.5em; font-weight: bold; color: #3b82f6;">${totalPlayers}</div>
-                    <div style="font-size: 0.9em; color: #94a3b8;">لاعبين</div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="competition-item">
-            <h5 style="margin-top: 0; margin-bottom: 15px; text-align: center;">📈 المتوسطات العامة</h5>
-            <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; text-align: center;">
-                <div>
-                    <div style="font-size: 1.2em; font-weight: bold; color: #fbbf24;">${avgKingRate}%</div>
-                    <div style="font-size: 0.8em; color: #94a3b8;">👑 الكنج</div>
-                </div>
-                <div>
-                    <div style="font-size: 1.2em; font-weight: bold; color: #ef4444;">${avgBadRate}%</div>
-                    <div style="font-size: 0.8em; color: #94a3b8;">🤡 البعرور</div>
-                </div>
-                <div>
-                    <div style="font-size: 1.2em; font-weight: bold; color: #22c55e;">${avgWinRate}%</div>
-                    <div style="font-size: 0.8em; color: #94a3b8;">📊 الفوز</div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="competition-item">
-            <div style="text-align: center;">
-                <div style="font-size: 1em; margin-bottom: 10px;">
-                    حالة النظام: <span class="${window.firebaseEnabled ? 'online' : 'offline'}">
-                    ${window.firebaseEnabled ? '🟢 نشط' : '🔴 معطل'}
-                    </span>
-                </div>
-                <div style="font-size: 0.9em; color: #94a3b8;">
-                    الاتصال: <span class="${window.isOnline ? 'online' : 'offline'}">
-                    ${window.isOnline ? '🟢 متصل' : '🔴 غير متصل'}
-                    </span>
-                </div>
-            </div>
-        </div>
-    `;
+    const user = USERS.find(u => u.u === username && u.p === password);
     
-    document.getElementById('statsBox').innerHTML = html;
+    if (user) {
+        currentUser = {
+            username: user.u,
+            name: user.n,
+            role: user.r,
+            loginTime: new Date().toLocaleString('ar-SA')
+        };
+        
+        updateUserInterface();
+        document.getElementById('loginBox').style.display = "none";
+        document.getElementById('appBox').style.display = "block";
+        loadAllData();
+        document.getElementById('loginMsg').textContent = "";
+        
+        window.sessionUser = currentUser;
+        
+    } else {
+        document.getElementById('loginMsg').textContent = "❌ بيانات الدخول غير صحيحة";
+    }
 };
+
+window.logout = function() {
+    showConfirmModal("🚪 تسجيل الخروج", "هل تريد تسجيل الخروج؟", () => {
+        currentUser = null;
+        window.deleteMode = false;
+        window.sessionUser = null;
+        document.getElementById('appBox').style.display = "none";
+        document.getElementById('loginBox').style.display = "block";
+        document.getElementById('currentUserInfo').style.display = "none";
+        document.getElementById('logoutBtn').style.display = "none";
+        document.getElementById('adminToggleBtn').style.display = "none";
+        document.getElementById('syncBtn').style.display = "none";
+        document.getElementById('adminPanel').style.display = "none";
+        document.getElementById('syncStatus').style.display = "none";
+        document.getElementById('user').value = "";
+        document.getElementById('pass').value = "";
+        showToast("✅ تم تسجيل الخروج بنجاح");
+    });
+};
+
+function updateUserInterface() {
+    if (currentUser) {
+        document.getElementById('currentUserName').textContent = currentUser.name;
+        document.getElementById('currentUserInfo').style.display = "block";
+        document.getElementById('logoutBtn').style.display = "block";
+        document.getElementById('syncBtn').style.display = "block";
+        document.getElementById('syncStatus').style.display = "block";
+        
+        if (currentUser.role === "admin") {
+            document.getElementById('currentUserRole').style.display = "inline-block";
+            document.getElementById('adminToggleBtn').style.display = "block";
+        }
+    }
+}
 
 // ==================== التحميل التلقائي ====================
 window.onload = function() {
-    // تحميل المستخدم من الذاكرة فقط
+    // تحميل المستخدم من الذاكرة
     if (window.sessionUser) {
         currentUser = window.sessionUser;
         updateUserInterface();
         document.getElementById('loginBox').style.display = "none";
         document.getElementById('appBox').style.display = "block";
-        loadCompetitions();
+        loadAllData();
     }
     
+    // تهيئة النموذج
     addIndividual();
     addIndividual();
     
-    // التحقق من حالة الاتصال
+    // التحقق من الاتصال
     window.addEventListener('online', () => {
         window.isOnline = true;
         updateSyncStatus("🟢 متصل بالإنترنت", "online");
         if (currentUser) {
-            loadCompetitions();
+            loadAllData();
         }
     });
     
@@ -1469,6 +2111,31 @@ window.onload = function() {
     } else {
         updateSyncStatus("🔴 غير متصل", "offline");
     }
+};
+
+// ==================== دوال إضافية للمهام غير المكتملة ====================
+window.exportCSV = function() {
+    showToast("⏳ قيد التطوير", "info");
+};
+
+window.renamePlayer = function(player) {
+    showToast("⏳ قيد التطوير", "info");
+};
+
+window.deletePlayer = function(player) {
+    showToast("⏳ قيد التطوير", "info");
+};
+
+window.addNewPlayer = function() {
+    showToast("⏳ قيد التطوير", "info");
+};
+
+window.showTopStrongPlayers = function() {
+    showToast("⏳ قيد التطوير", "info");
+};
+
+window.showStrongHistory = function() {
+    showToast("⏳ قيد التطوير", "info");
 };
 </script>
 </body>
